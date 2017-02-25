@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><meta name="author" content="Eric Jain"><title>Clustering Kiwis - Eric Jain's Blog</title><link rel="alternate" type="application/rss+xml" title="Eric Jain's Blog" href="/blog/atom.xml"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="/blog/css/main.css"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"></head><body><nav class="navbar navbar-default navbar-custom"><div class="container-fluid"><div class="navbar-header"><a href="/blog/" class="navbar-brand">Eric Jain's Blog</a></div></div></nav><header class="header-section"><div class="intro-header no-img"><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class="post-heading"><h1>Clustering Kiwis</h1><p class="post-meta">January 22, 2007</p></div></div></div></div></div></header><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><article role="main" class="blog-post"><p>Being able to distinguish different meanings of a term may turn out to be the next big step forward for web search engines. There are quite a few people working on this now; here is a quick survey in which I check how well the different efforts handle the term &#8220;Kiwi&#8221;.</p>
+<a id="more"></a>
+<p>&#8220;Kiwi&#8221; is a problematic term, as it can be used for:</p>
+<ul>
+<li>a bird</li>
+<li>a fruit</li>
+<li>people from New Zealand</li>
+<li>a name for various products or businesses</li>
+</ul>
+<p>Moreover, the different uses of the term &#8220;Kiwi&#8221; are often closely related. For example, the Wikipedia article on &#8220;Kiwi (people)&#8221; contains the word &#8220;bird&#8221; (&#8220;The name derives ultimately from the flightless bird native [&#8230;]&#8221;). But this document shouldn&#8217;t appear (or score high) when we are looking for information about Kiwi birds.</p>
+<h3 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h3><p><a href="http://www.google.com/search?q=kiwi" target="_blank" rel="external">Google</a> shows a suggestion to extend the query to &#8220;kiwi fruit&#8221; somewhere half way down in the list of results. The first hit is for some software called &#8220;Kiwi Syslog Daemon&#8221;. There is also a &#8220;definition&#8221; link that points to <a href="http://www.answers.com/kiwi" target="_blank" rel="external">Answers.com</a> where you get this:</p>
+<blockquote>
+<p><strong>Or did you mean:</strong> kiwifruit , kiwi (bird), Kiwi (Marine lingo), kiwi (people), Kiwi (Dragon Ball), Kiwi (shoe polish), Kiwi (horse), Kiwi (2002 Album by Dim Dim), Kiwi (Gaming Character) </p>
+</blockquote>
+<p>That&#8217;s nice, but it&#8217;s just definitions, which doesn&#8217;t help us much with our web search (at least not directly).</p>
+<h3 id="Yahoo"><a href="#Yahoo" class="headerlink" title="Yahoo!"></a>Yahoo!</h3><p><a href="http://search.yahoo.com/search?p=kiwi" target="_blank" rel="external">Yahoo!</a> suggests (at the top of the results page):</p>
+<blockquote>
+<p><strong>Also try:</strong> killer kiwi, kiwi fruit, kiwi carpet cleaning, kiwi bird</p>
+</blockquote>
+<p>No comment&#8230;</p>
+<h3 id="Live-Search"><a href="#Live-Search" class="headerlink" title="Live Search"></a>Live Search</h3><p><a href="http://search.live.com/results.aspx?q=kiwi" target="_blank" rel="external">Live Search</a> suggests these &#8220;related searches&#8221;:</p>
+<blockquote>
+<p><strong>Related searches:</strong> Kiwi Fruit, Kiwi Bird, Kiwi Plants, Kiwi Casino, Killer Kiwi, Kiwi Bingo, Kiwi Photo Gallery </p>
+</blockquote>
+<p>Also &#8212; for reasons beyond my comprehension &#8212; there are no less than three ads for buying &#8220;thong bikinis&#8221;&#8230;</p>
+<h3 id="Ask"><a href="#Ask" class="headerlink" title="Ask"></a>Ask</h3><p><a href="http://www.ask.com/web?q=kiwi" target="_blank" rel="external">Ask</a> lists matching Wikipedia articles at the top (in a dropdown list). This isn&#8217;t terribly convenient, but in this case it does give a good idea of the different uses of the term. When you select an article the search is redone to match the selected article. Also, there are these suggestions:</p>
+<blockquote>
+<p><strong>Narrow Your Search:</strong> Eat a Kiwi, Kiwi Shoe Polish, Kiwi Fruit Facts, Kiwi Recipes, Kiwi Origin, Kiwi Bird Live, Kiwi Fruit Come</p>
+<p><strong>Expand Your Search:</strong> Kiwi Bird, Strawberries, New Zealand, Oranges, Pineapple, Grapes</p>
+<p><strong>Related Names:</strong> Peaches, Rhea </p>
+</blockquote>
+<h3 id="Clusty"><a href="#Clusty" class="headerlink" title="Clusty"></a>Clusty</h3><p><a href="http://clusty.com/search?query=kiwi" target="_blank" rel="external">Clusty</a> is a &#8220;meta&#8221; search engine, i.e. it collects its results from other search engines, and reorganizes them a bit. This limits the possibilities as they must rely on the first n hits returned by the other search engines, but let&#8217;s see what they do:</p>
+<blockquote>
+<p>New Zealand (82)</p>
+<p>Fruit (11)</p>
+<p>Game (8)</p>
+<p>Blog (9)</p>
+<p>Club (8)</p>
+<p>Syslog Daemon (5)</p>
+<p>Designs (7)</p>
+<p>Cool Kiwi (6)</p>
+<p>Holiday (4)</p>
+<p>Specializing (4) </p>
+</blockquote>
+<p>The indication of the number of matches is certainly useful. But why is &#8220;Kiwi&#8221; under &#8220;New Zealand&#8221;?</p>
+<h3 id="WebClust"><a href="#WebClust" class="headerlink" title="WebClust"></a>WebClust</h3><p><a href="http://www.webclust.com/cgi-bin/webclust.pl?query=kiwi" target="_blank" rel="external">WebClust</a> is another &#8220;meta&#8221; search engine that tries to organize the output of other search engines better.</p>
+<blockquote>
+<p>Shop (19)</p>
+<p>Kiwi Fruit (19)</p>
+<p>Amp (16)</p>
+<p>Kiwi Bird (12)</p>
+<p>Design (10)</p>
+<p>Shipped,Price (10)</p>
+<p>Kiwi Alpha (7)</p>
+<p>Kiwi Music (5)</p>
+<p>Pineapple Kiwi (5)</p>
+<p>Version,Available (3)</p>
+<p>Body,Bath (3)</p>
+<p>Thousands (3)</p>
+<p>Other (88) </p>
+</blockquote>
+<p>Restricting to &#8220;Kiwi Bird&#8221; does get rid of some matches, but still includes &#8220;Kiwi Shoe Polish Reg. Size&#8221;&#8230;</p>
+<h3 id="Mooter"><a href="#Mooter" class="headerlink" title="Mooter"></a>Mooter</h3><p><a href="http://www.mooter.com/" target="_blank" rel="external">Mooter</a> doesn&#8217;t return a list of results, but a graph that must be clicked on first:</p>
+<blockquote>
+<p>fruit</p>
+<p>men</p>
+<p>book</p>
+<p>kiwi</p>
+<p>find</p>
+<p>shop</p>
+<p>accessories </p>
+</blockquote>
+<p>Hmm&#8230;</p>
+<h3 id="Conclusions"><a href="#Conclusions" class="headerlink" title="Conclusions"></a>Conclusions</h3><ol>
+<li>Current automatic clustering methods seem to be unable to produce suggestions that make much sense, for the most part.</li>
+<li>None of the search engines seems to be able to understand what a document is talking about, but instead rely on the occurrence of specific terms.</li>
+<li>The best you can expect from current search engines is a suggestion to rephrase a query e.g. as &#8220;kiwi bird&#8221; &#8212; something most people with a bit of experience will do on their own.</li>
+</ol>
+</article></div></div></div><footer><div class="container beautiful-jekyll-footer"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><ul class="list-inline text-center footer-links"><li><a href="/atom.xml" title="RSS"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-rss"></i></span></a></li><li><a href="mailto:eric.jain@gmail.com" title="Email me"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-envelope"></i></span></a></li><li><a href="https://www.linkedin.com/in/ejain" title="LinkedIn"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-linkedin"></i></span></a></li><li><a href="https://plus.google.com/+EricJain" title="Google+"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-google-plus"></i></span></a></li><li><a href="https://github.com/ejain" title="GitHub"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-github"></i></span></a></li></ul><p class="copyright text-muted">© 2017 Eric Jain</p></div></div></div></footer></body></html>

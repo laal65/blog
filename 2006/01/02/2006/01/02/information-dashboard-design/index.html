@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><meta name="author" content="Eric Jain"><title>Information Dashboard Design - Eric Jain's Blog</title><link rel="alternate" type="application/rss+xml" title="Eric Jain's Blog" href="/blog/atom.xml"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="/blog/css/main.css"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"></head><body><nav class="navbar navbar-default navbar-custom"><div class="container-fluid"><div class="navbar-header"><a href="/blog/" class="navbar-brand">Eric Jain's Blog</a></div></div></nav><header class="header-section"><div class="intro-header no-img"><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class="post-heading"><h1>Information Dashboard Design</h1><p class="post-meta">January 2, 2006</p></div></div></div></div></div></header><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><article role="main" class="blog-post"><p>Brief review of <a href="http://www.amazon.com/gp/product/0596100167/" target="_blank" rel="external">Information Dashboard Design : The Effective Visual Communication of Data</a> by Stephen Few.</p>
+<a id="more"></a>
+<p>What is a &#8220;dashboard&#8221;?</p>
+<blockquote>
+<p>A dashboard is a visual display of the most important information needed to achieve one or more objectives; consolidated and arranged on a single screen so the information can be monitored at a glance.</p>
+</blockquote>
+<p>The author identifies a wide range of uses for dashboards ranging from sales to server monitoring. Both Confluence and Jira have simple dashboards. Dashboards could also be useful for keeping track of web server or annotation statistics.</p>
+<p>There is a lot of advice on design issues beyond dashboards:</p>
+<blockquote>
+<p>Customers are expert in knowing what they need to accomplish, but not in knowing how software ought to be designed to support their needs. Allowing customers to design software through feature requests is the worst form of disaster by committee.</p>
+</blockquote>
+<p>Three kinds of dashboards are distinguished:</p>
+<ul>
+<li>strategic (read only summaries)</li>
+<li>analytical (drill down summaries) </li>
+<li>operation (real-time alerts)</li>
+</ul>
+<p>One of the main tasks all dashboards must support are comparisons across time or related categories.</p>
+<p>There are quite a few dashboard products in the market. The author doesn&#8217;t seem to be enthusiastic about any of them and uses plenty of screenshots to illustrate his points.</p>
+<blockquote>
+<p>Another common problem on the dashboards that I find on vendor web sites is the abundance of useless decoration. They either hope that we will be drawn in by the artistry or assume that the decorative flourishes are necessary to entertain us. I assure you, however, that even people who enjoy the decoration upon first sight will grow weary of it in a few days. [&#8230;] Blank space is better than meaningless decoration.</p>
+</blockquote>
+<p>Other pitfalls include:</p>
+<ul>
+<li>data doesn&#8217;t fit on a single screen</li>
+<li>not enough context information is given to help determine if data is problematic or not</li>
+<li>excessive detail which slows down comprehension (decimal digits etc)</li>
+<li>important data is not highlighted</li>
+</ul>
+<p>There is a chapter on the basics of visual perception because:</p>
+<blockquote>
+<p>You don&#8217;t need to be a graphic artist to design an attractive dashboard, but you do need to understand a few basic principles about visual perception.</p>
+</blockquote>
+<p>For example, one should use soft colors unless one wants to focus attention on something. Colors should variate in intensity rather than hue to ensure that people who have problems with color vision can make the distinctions, too. Characteristics such as size or shape are suitable for representing either qualitative or quantitative data to different degrees.</p>
+<p>To clean up a dashboard the author recommends going through the following steps:</p>
+<ol>
+<li>Reduce the amount of &#8220;non-data&#8221; pixels. This includes 3D effects, unnecessary grid lines in graphs, borders, background decorations and color gradients.</li>
+<li>De-emphasize remaining &#8220;non-data&#8221; pixels. Reduce thickness, tone down color etc.</li>
+</ol>
+<p>Another issue are navigation items:</p>
+<blockquote>
+<p>place [navigation items] in an out-of-the-way location such as the bottom-right corner of the screen and mute them visually, so they won&#8217;t compete with the data for attention</p>
+</blockquote>
+<p>Instructions should be made available through pop-ups rather than be displayed directly. This is what we do in the niceprot view. Also, general help is not accessed during normal use and should therefore be reduced to a single help link.</p>
+<p>The author is critical of many frequently used chart types such as gauges (waste of space), pie charts (difficult to make quantitative comparisons) and 3D graphs (for non-3D data).</p>
+<p>Regarding bar and line graphs:</p>
+<ul>
+<li>Don&#8217;t use line graphs to display data along a nominal (e.g. category) or ordinal (e.g. rank) scale, only for intervals (e.g. time), unless grouped (e.g. by month).</li>
+<li>Use stacked bar graphs only when the emphasis is on the sum, not to visualize the differences within.</li>
+</ul>
+<p>Icons can also be useful, but all you usually need are:</p>
+<ul>
+<li>alert</li>
+<li>up/down</li>
+<li>on/off</li>
+</ul>
+<p>Meaningful comparisons should be encouraged and meaningless comparisons discouraged through spatial separation and colors.</p>
+<p>The book ends with several case studies, showing both good and bad solutions.</p>
+</article></div></div></div><footer><div class="container beautiful-jekyll-footer"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><ul class="list-inline text-center footer-links"><li><a href="/atom.xml" title="RSS"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-rss"></i></span></a></li><li><a href="mailto:eric.jain@gmail.com" title="Email me"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-envelope"></i></span></a></li><li><a href="https://www.linkedin.com/in/ejain" title="LinkedIn"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-linkedin"></i></span></a></li><li><a href="https://plus.google.com/+EricJain" title="Google+"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-google-plus"></i></span></a></li><li><a href="https://github.com/ejain" title="GitHub"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-github"></i></span></a></li></ul><p class="copyright text-muted">© 2017 Eric Jain</p></div></div></div></footer></body></html>

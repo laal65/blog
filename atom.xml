@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eric Jain&#39;s Blog</title>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://ejain.github.io/"/>
+  <updated>2017-02-23T17:19:40.861Z</updated>
+  <id>https://ejain.github.io/</id>
+  
+  <author>
+    <name>Eric Jain</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Flights in 2015</title>
+    <link href="https://ejain.github.io/2016/01/01/flights/"/>
+    <id>https://ejain.github.io/2016/01/01/flights/</id>
+    <published>2016-01-01T08:00:00.000Z</published>
+    <updated>2017-02-23T17:19:40.861Z</updated>
+    
+    <content type="html"><![CDATA[<p>Collected tracks for every flight I took last year from <a href="https://flightaware.com/" target="_blank" rel="external">FlightAware</a>, and used <a href="https://gist.github.com/ejain/ea143f446bb568ec20d6" target="_blank" rel="external">this script</a> to merge the tracks into a single file that could be imported into <a href="https://www.google.com/fusiontables/" target="_blank" rel="external">Google Fusion Tables</a>. This is the result:</p>
+<p><a href="https://www.google.com/fusiontables/embedviz?q=select+col2+from+1TTaW_pw0b4ZgeHeO4H7xkqY6MNLRqD8Z2cZUeXdO&amp;viz=MAP&amp;h=false&amp;lat=32.63587469625332&amp;lng=-93.51910237499999&amp;t=1&amp;z=4&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=KML" target="_blank" rel="external"><img src="https://c2.staticflickr.com/2/1607/23343129434_34a5ac61cc_z.jpg" alt="Flight Map"></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Collected tracks for every flight I took last year from &lt;a href=&quot;https://flightaware.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;FlightAware&lt;/a&gt;
+    
+    </summary>
+    
+    
+      <category term="Travel" scheme="https://ejain.github.io/tags/travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2014 Outdoor Trips</title>
+    <link href="https://ejain.github.io/2015/01/01/outdoor-trips/"/>
+    <id>https://ejain.github.io/2015/01/01/outdoor-trips/</id>
+    <published>2015-01-01T08:00:00.000Z</published>
+    <updated>2017-02-23T17:17:35.939Z</updated>
+    
+    <content type="html"><![CDATA[<p>Looking back at all the outdoor trips we did last year, <a href="https://zenobase.com/#/buckets/u07qih0a27/?q=timestamp:2014" target="_blank" rel="external">the stats</a> look almost identical to the previous year&#8217;s. Couple more overnight trips (10), thanks to the great weather. All in all, we hiked and paddled about 470 mi with 110,000 ft elevation gain on 59 trips.</p>
+<p><a href="https://www.google.com/fusiontables/embedviz?q=select+col5+from+1qqRIewHtmcROWgAtyAWkFd50jF7IyIG_pdAcj-SX&amp;viz=MAP&amp;h=false&amp;lat=47.273650754137826&amp;lng=-122.05635518652345&amp;t=4&amp;z=8&amp;l=col5&amp;y=2&amp;tmplt=2&amp;hml=KML" target="_blank" rel="external"><img src="http://farm8.static.flickr.com/7521/15996138219_aa9bcdef84_o.png" alt="Tracklogs"></a></p>
+<p>See <a href="/2010/12/12/one-years-tracklogs/">this previous post</a> for an explanation how this map was created.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Looking back at all the outdoor trips we did last year, &lt;a href=&quot;https://zenobase.com/#/buckets/u07qih0a27/?q=timestamp:2014&quot; target=&quot;_bl
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tableau &amp; Quantified Self</title>
+    <link href="https://ejain.github.io/2014/05/24/tableau-quantified-self/"/>
+    <id>https://ejain.github.io/2014/05/24/tableau-quantified-self/</id>
+    <published>2014-05-24T07:00:00.000Z</published>
+    <updated>2017-02-23T17:16:11.183Z</updated>
+    
+    <content type="html"><![CDATA[<p>Tableau has a <a href="http://www.tableausoftware.com/public/contest/QS" target="_blank" rel="external">contest</a> going on for visualizing Quantified Self data. I happen to have a fair amount of such of data from all kinds of sources on <a href="https://zenobase.com/" target="_blank" rel="external">zenobase.com</a>, so I decided to give it a shot.</p>
+<p>I was curious about Tableau&#8217;s geo features, and how well Tableau would handle slightly larger data sets. So I chose some outdoor/fitness activity data (which includes coordinates), and some hour-resolution energy expenditure data (~10K records).</p>
+<p>Getting the data into Tableau was straightforward, as Zenobase exports data in <acronym>CSV</acronym> format. Tableau didn&#8217;t detect any data types (timestamps, coordinates, or even numbers), but that was easy to fix after the import had completed. Working with the larger data set was not a problem, either, even if the experience wasn&#8217;t exactly snappy.</p>
+<p>You can find the result embedded below. The &#8220;dashboard&#8221; is interactive, so you can select one or more days of the week (and/or hours of the day), and the map will update to show activities that started at the corresponding time. Or you can select an activity type, or a region on the map.* Note the different patterns on week days and week ends.</p>
+<p></p><p><script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script></p><p></p>
+<div class="tableauPlaceholder" style="width: 654px; height: 879px;"><noscript><a href="#"><img alt="Dashboard " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ac&#47;ActivitiesCaloriesBurned&#47;Dashboard&#47;1_rss.png" style="border: none"></a></noscript><object class="tableauViz" width="654" height="879" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F"><param name="site_root" value=""><param name="name" value="ActivitiesCaloriesBurned&#47;Dashboard"><param name="tabs" value="no"><param name="toolbar" value="yes"><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ac&#47;ActivitiesCaloriesBurned&#47;Dashboard&#47;1.png"><param name="animate_transition" value="yes"><param name="display_static_image" value="yes"><param name="display_spinner" value="yes"><param name="display_overlay" value="yes"><param name="display_count" value="yes"><param name="filter" value="amp;:showVizHome=no"></object></div><br><div style="width:654px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"></div>
+
+<p>* If the submission deadline wasn’t this Sunday evening, and I wasn’t on my way out to “collect more data”, perhaps I could try to show the energy expenditure on the map, and let selections on the map update the energy expenditure data below as well…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Tableau has a &lt;a href=&quot;http://www.tableausoftware.com/public/contest/QS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;contest&lt;/a&gt; going on for visualiz
+    
+    </summary>
+    
+    
+      <category term="Quantified Self" scheme="https://ejain.github.io/tags/quantified-self/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>EuroSeattle Startup Weekend</title>
+    <link href="https://ejain.github.io/2014/01/29//2014/01/29/euroseattle-startup-weekend//"/>
+    <id>https://ejain.github.io/2014/01/29//2014/01/29/euroseattle-startup-weekend//</id>
+    <published>2014-01-29T08:02:55.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Last weekend I attended my first <a href="http://euroseattle.startupweekend.org/" target="_blank" rel="external">Startup Weekend</a>. The event was very well organized; I had a great time and got to know a lot of good people.</p>
+<a id="more"></a>
+<p>Didn&#8217;t get enough votes for the idea I pitched (a dating site that matches people using data from services like Fitbit), so I ended up joining another team to build <a href="http://www.myloop.co/" target="_blank" rel="external">an app that generates running routes that pass near popular sights</a>.</p>
+<p> <img src="http://eric.jain.name/wp-content/uploads/2014/01/myloop_landing.png" title="Landing page" width="180" height="300" class="alignnone size-medium wp-image-203"><img src="http://eric.jain.name/wp-content/uploads/2014/01/myloop_app.png" title="Generated route starting at Louisa's Cafe" width="180" height="300" class="alignnone size-medium wp-image-203"></p>
+<p>Our team consisted of 6 &#8220;non-technicals&#8221; and 3 developers (including myself). There was little friction, and I was impressed how well tasks like market research were performed. Somewhat less impressive was the amount of time spent discussing logos and background colors. Also, does the &#8220;Minimum Viable Product&#8221; really need a built-in music player? :-)</p>
+<p>Despite Startup Weekend&#8217;s slogan (&#8220;No Talk, All Action&#8221;), there isn&#8217;t much incentive to put a lot of development effort into anything but building smoke and mirrors: Even though we had what appeared to be the only (somewhat) usable product, we didn&#8217;t even make it into the top 4&#8230;</p>
+<p>Every Startup Weekend is probably unique, but it would be more worthwhile for developers if there was some technical mentorship, and judges also took execution into consideration, not just business plans.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Last weekend I attended my first &lt;a href=&quot;http://euroseattle.startupweekend.org/&quot;&gt;Startup Weekend&lt;/a&gt;. The event was very well organized; I had a great time and got to know a lot of good people.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://ejain.github.io/categories/Programming/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>API Prayer</title>
+    <link href="https://ejain.github.io/2013/10/11/api-prayer/"/>
+    <id>https://ejain.github.io/2013/10/11/api-prayer/</id>
+    <published>2013-10-11T07:00:00.000Z</published>
+    <updated>2017-02-21T08:45:19.579Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>Our Father in heaven,<br>hallowed be your OAuth tokens.<br>Your data come,<br>your quota will be increased,<br>in the sandbox, as well as in production.<br>Give us this day out daily stats,<br>and forgive us our outdated docs,<br>as we have also forgiven those whose timestamps lack time zone offsets.<br>And lead us not into premature standardization,<br>but deliver us from expired SSL certificates.</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Our Father in heaven,&lt;br&gt;hallowed be your OAuth tokens.&lt;br&gt;Your data come,&lt;br&gt;your quota will be increased,&lt;br&gt;in the sandbo
+    
+    </summary>
+    
+    
+      <category term="programming" scheme="https://ejain.github.io/tags/programming/"/>
+    
+      <category term="humor" scheme="https://ejain.github.io/tags/humor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lenovo Thinkpad T431s</title>
+    <link href="https://ejain.github.io/2013/07/05/lenovo-thinkpad-t431s/"/>
+    <id>https://ejain.github.io/2013/07/05/lenovo-thinkpad-t431s/</id>
+    <published>2013-07-05T07:00:00.000Z</published>
+    <updated>2017-02-21T07:40:08.480Z</updated>
+    
+    <content type="html"><![CDATA[<p>Got a Thinkpad T431s to replace my 3-year old T410s. Here are some random observations, after using the new laptop for a few weeks.</p>
+<a id="more"></a>
+<p><a href="http://eric.jain.name/wp-content/uploads/2013/07/T431s.jpg"><img src="http://eric.jain.name/wp-content/uploads/2013/07/T431s.jpg" alt="T431s" width="600" height="399" class="alignnone size-full wp-image-180"></a></p>
+<p>The T431s feels much lighter than the T410s. The screen is a bit smaller (still 14&#8243;, but more elongated), and the T431s lacks a DVD reader/writer, but I won&#8217;t miss that to much. On the other hand I find the fingerprint reader (not faster than typing, but less awkward when typing in front of other people) and the memory card reader (can transfer pictures from a camera fast and without having to search for the right cable) quite useful.</p>
+<p>I like the backlit keyboard better than the light on the previous models. I&#8217;m less happy about the random placement of the Home/End/PgUp/PgDn keys, which I use a lot. I wouldn&#8217;t mind if I could at least map Fn+Up to PgUp, Fn+Left to Home etc, but this does not appear to be possible (tried with KeyTweak). I also use the F keys a lot; these are now by default used to control volume, brightness etc. There is a FnLk, but that has to be reset after waking up from standby.</p>
+<p>One of the nice things with Thinkpads is the ability to create custom configurations. I no longer care much about CPUs (Intel Core i7-3687U, 4M Cache, 2.00 GHz), but chose twice the RAM (8G RAM) that I had in the T410s. The disk is a 180GB SSD (would have chosen 250GB, if that had been an option). Had to spend some time removing unwanted trial applications (anti-virus, office), and the large recovery partition and local drivers (after creating a recovery USB drive).</p>
+<p>The T431s appears to be much more quiet than the T410s. The T410s had some weird screeching sounds (a known problem with some chipset used in that machine), and was prone to overheating, especially when using the &#8220;discrete&#8221; ATI graphics card. The &#8220;switchable graphics&#8221; setup is no longer an option, but the integrated Intel HD Graphics 4000 is now powerful enough for me.</p>
+<p>The large, smooth trackpad on the T431s is much more pleasant to use than the rough trackpad on the T410s with its poorly defined borders. The trackpad does rattle and feel a bit cheap when depressing it, but I prefer to click by tapping lightly anyway. Should just glue it in place :-)</p>
+<p>The DisplayPort is gone, replaced with a (much more common) Mini-DisplayPort. There&#8217;s still a VGA port, too. All ports are now on the sides. The T431s still works with the Mini Dock Series 3, using a small (included) piece of plastic to help guide the laptop into position.</p>
+<p>The power adapter has been shrunk a bit, which is nice. The power plug was changed as well: It&#8217;s no longer round, but looks like (and could be confused with) a USB plug.</p>
+<p>The battery life isn&#8217;t very impressive, but I seem to get at least 3 hours when using wifi and a reasonable screen brightness. Also, the contrast and brightness of the screen are rather poor. This would be an issue, if I didn&#8217;t have the laptop connected to an external monitor most of the time.</p>
+<p>Like with previous Thinkpads, the build quality looks good. There is a new hinge design; I&#8217;m curious to see how fast the hinges wear out. The hinges on the T410s were a weak spot, wearing out after only a year or so (compared to the hinges on the T42p, which didn&#8217;t show any signs of wear even after several years).</p>
+<p>All in all, the T431s has been a worthwhile upgrade for me. I&#8217;ll keep this post updated&#8230;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Got a Thinkpad T431s to replace my 3-year old T410s. Here are some random observations, after using the new laptop for a few weeks.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="review" scheme="https://ejain.github.io/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>California Roadtrip</title>
+    <link href="https://ejain.github.io/2012/03/24/california-roadtrip/"/>
+    <id>https://ejain.github.io/2012/03/24/california-roadtrip/</id>
+    <published>2012-03-24T07:00:00.000Z</published>
+    <updated>2017-02-23T16:56:10.019Z</updated>
+    
+    <content type="html"><![CDATA[<p>Map with tracks, waypoints and links to photo albums.</p>
+<a id="more"></a>
+<iframe src="/2012/03/23/california-roadtrip/map.html" height="600" width="550"></iframe>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Map with tracks, waypoints and links to photo albums.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Travel" scheme="https://ejain.github.io/tags/travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OSGi and Eclipse RCP Talk</title>
+    <link href="https://ejain.github.io/2011/11/17/osgi-and-eclipse-rcp-talk/"/>
+    <id>https://ejain.github.io/2011/11/17/osgi-and-eclipse-rcp-talk/</id>
+    <published>2011-11-17T08:00:00.000Z</published>
+    <updated>2017-02-21T08:17:43.142Z</updated>
+    
+    <content type="html"><![CDATA[<p>I gave a talk at the <a href="http://www.seajug.org/" target="_blank" rel="external">Seattle Java User Group</a> this week, where I talk about two technologies I use <a href="http://www.sciscogenetics.com/" target="_blank" rel="external">at work</a>: The <a href="http://www.osgi.org/About/Technology" target="_blank" rel="external">OSGi</a> module system, and the <a href="http://wiki.eclipse.org/index.php/Rich_Client_Platform" target="_blank" rel="external">Eclipse Rich Client Platform</a>. Giving this talk was a good experience, and the audience was great. You can watch the talk below.</p>
+<a id="more"></a>
+<iframe src="http://player.vimeo.com/video/32248135?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0" webkitallowfullscreen="" allowfullscreen></iframe>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/10179655" width="400" height="335" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I gave a talk at the &lt;a href=&quot;http://www.seajug.org/&quot;&gt;Seattle Java User Group&lt;/a&gt; this week, where I talk about two technologies I use &lt;a href=&quot;http://www.sciscogenetics.com/&quot;&gt;at work&lt;/a&gt;: The &lt;a href=&quot;http://www.osgi.org/About/Technology&quot;&gt;OSGi&lt;/a&gt; module system, and the &lt;a href=&quot;http://wiki.eclipse.org/index.php/Rich_Client_Platform&quot;&gt;Eclipse Rich Client Platform&lt;/a&gt;. Giving this talk was a good experience, and the audience was great. You can watch the talk below.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="programming" scheme="https://ejain.github.io/tags/programming/"/>
+    
+      <category term="life science" scheme="https://ejain.github.io/tags/life-science/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>One Year&#39;s Tracklogs</title>
+    <link href="https://ejain.github.io/2010/12/12/one-years-tracklogs/"/>
+    <id>https://ejain.github.io/2010/12/12/one-years-tracklogs/</id>
+    <published>2010-12-12T08:00:00.000Z</published>
+    <updated>2017-02-23T17:15:38.334Z</updated>
+    
+    <content type="html"><![CDATA[<p>Here’s a map that shows every tracklog I recorded this year, driving and hiking around Washington State (mostly).</p>
+<p><a href="http://www.google.com/fusiontables/DataSource?snapid=115713" target="_blank" rel="external"><img src="http://farm6.static.flickr.com/5121/5256169282_e8d8d29480_z.jpg" alt="Eric&#39;s Tracklogs 2010"></a></p>
+<p>The red tracks were recorded while driving (or, in one instance, while on a ferry). The yellow tracks were recorded while hiking (or in small boats). I only started recording driving tracklogs end of April, hence the few disconnected hiking tracks on the map.</p>
+<p>The map was created with <a href="http://tables.googlelabs.com/" target="_blank" rel="external">Google Fusion Tables</a>, which somehow is smart enough to be able to show a large number of tracklogs all at once. I wrote a small <a href="build.g">script</a> (in Groovy) to convert a directory containing GPX tracklog files into a single KML file that can be imported into Google Fusion Tables.</p>
+<p>Click on the image above to open an interactive, zoomable map.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here’s a map that shows every tracklog I recorded this year, driving and hiking around Washington State (mostly).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://
+    
+    </summary>
+    
+    
+      <category term="recreation" scheme="https://ejain.github.io/tags/recreation/"/>
+    
+      <category term="programming" scheme="https://ejain.github.io/tags/programming/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kauai</title>
+    <link href="https://ejain.github.io/2010/04/16//2010/04/16/kauai//"/>
+    <id>https://ejain.github.io/2010/04/16//2010/04/16/kauai//</id>
+    <published>2010-04-17T04:20:56.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Trip report for a one-week vacation on Kauai (Hawaii), April 8th &#8212; 15th.</p>
+<a id="more"></a>
+<h3 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h3><p>Arrived in Lihue in the evening. Picked up our rental car from Hertz (1 min shuttle drive from the terminal). Upgraded the car to a Subaru Forester (AWD) due to some concern about the condition of a road we intended to drive the next day. Checked in at our hotel, the <a href="http://www.astonhotels.com/aston/propertyOverview.do?propertyGroupId=45463" target="_blank" rel="external">Aston Islander on the Beach</a> in Kapaa [<a href="http://www.tripadvisor.com/ShowUserReviews-g60616-d87217-r61767061-Aston_Islander_on_the_Beach-Kapaa_Kauai_Hawaii.html" target="_blank" rel="external">My Review</a>].</p>
+<h3 id="Day-2"><a href="#Day-2" class="headerlink" title="Day 2"></a>Day 2</h3><p>Got our <a href="http://www.hawaiistateparks.org/parks/kauai/" target="_blank" rel="external">state park camping permits</a> in Lihue. Spent almost an hour waiting for the paperwork to be completed, but was glad we had been able to get all the permits we wanted on short notice (advance reservations of up to one year are sometimes required). Bought groceries for camping and to stock up our hotel fridge. Didn&#8217;t manage to get hold of a gas canister for our camping stove, so we&#8217;d have to make do with a Sterno. Bought topo maps at the museum shop. Rented snorkeling gear at <a href="http://www.snorkelbob.com/" target="_blank" rel="external">Snorkel Bob&#8217;s</a>.</p>
+<p>Drove around to the west side of the island. To get to Polihale Beach we had to drive the last few miles on a notorious dirt road [<a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=111885530645305979451.000482fe794ebdb98ba77&amp;t=h&amp;z=13" target="_blank" rel="external">Directions</a>]. There had been a lot of rain prior to our arrival, and we had been warned when we got the permit that we&#8217;d get stuck for sure. But the road was starting to dry out, and we made it just fine (albeit covered with mud). Might even have made it with a compact car, but navigating the miles of potholes would have taken forever, and we&#8217;d have had to leave the car at the day use area at the end of the road. Found a beautiful spot to set up camp and walked up along the beach until we hit the end.</p>
+<table style="width:194px;"><br>  <tr><br>    <td align="center" style="height:194px;background:url(http://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left"><br>      <a href="http://picasaweb.google.com/eric.jain/PolihaleBeachApril2010?feat=embedwebsite" target="_blank" rel="external"><img src="http://lh4.ggpht.com/_GeX70u05z6k/S8lEdFGX1PE/AAAAAAAAops/3VmT1MemPPU/s160-c/PolihaleBeachApril2010.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a><br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><br>      <a href="http://picasaweb.google.com/eric.jain/PolihaleBeachApril2010?feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;" target="_blank" rel="external">Polihale Beach Photos</a><br>    </td><br>  </tr><br></table>
+
+<h3 id="Day-3"><a href="#Day-3" class="headerlink" title="Day 3"></a>Day 3</h3><p>Drove back to Waimea and from there up to Koke&#8217;e State Park along the spectacular Waimea canyon. Stopped at the <a href="http://www.kokee.org/" target="_blank" rel="external">Koke&#8217;e Museum</a> to ask about trail conditions. Started hiking from the end of the road at the Pu&#8217;uokila Lookout (amazing views down into Kalalau Valley and out into the ocean). Followed the (muddy) Pihea trail along the valley rim and then down into the Alakai Swamp (nice boardwalk). Followed the Alakai Trail from the intersection to its beginning at a picnic area with stunning views down Waimea Canyon. Headed back, with a small detour up Pihea Peak. Stayed at the Koke&#8217;e campground (near the museum).</p>
+<table style="width:194px;"><br>  <tr><br>    <td align="center" style="height:194px;background:url(http://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left"><br>      <a href="http://picasaweb.google.com/eric.jain/AlakaiSwampApril2010?feat=embedwebsite" target="_blank" rel="external"><img src="http://lh3.ggpht.com/_GeX70u05z6k/S8q3Ixzuc8E/AAAAAAAAo7k/CXpNsMbcUZo/s160-c/AlakaiSwampApril2010.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a><br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><br>      <a href="http://picasaweb.google.com/eric.jain/AlakaiSwampApril2010?feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;" target="_blank" rel="external">Alakai Swamp Photos</a><br>    </td><br>  </tr><br></table>
+
+<h3 id="Day-4"><a href="#Day-4" class="headerlink" title="Day 4"></a>Day 4</h3><p>Drove down to Po&#8217;ipu. Po&#8217;ipu Beach looked a bit crowded, but we didn&#8217;t have trouble finding parking. The snorkeling turned out to be quite simple: Just had to stick the head underwater and watch all kinds of colorful fish swim up. Next we went on a (guided) tour of the Allerton Garden. They had some pretty amazing flowers and fruits growing there. Too bad the guide was more focused on keeping the group entertained with football jokes than lecturing&#8230; Before we headed back to the hotel to clean our gear and get a good night&#8217;s sleep, we were glad we checked out the &#8220;Spouting Horn&#8221; blowhole across the road from the garden [<a href="http://www.youtube.com/watch?v=PJfSqJ2s7hc" target="_blank" rel="external">Movie</a>].</p>
+<table style="width:194px;"><br>  <tr><br>    <td align="center" style="height:194px;background:url(http://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left"><br>      <a href="http://picasaweb.google.com/eric.jain/AllertonGardenApril2010?feat=embedwebsite" target="_blank" rel="external"><img src="http://lh4.ggpht.com/_GeX70u05z6k/S8wH0bJfRCE/AAAAAAAApyw/zK7AzyQZ7bM/s160-c/AllertonGardenApril2010.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a><br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><br>      <a href="http://picasaweb.google.com/eric.jain/AllertonGardenApril2010?feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;" target="_blank" rel="external">Allerton Garden Photos</a><br>    </td><br>  </tr><br></table>
+
+<h3 id="Day-5"><a href="#Day-5" class="headerlink" title="Day 5"></a>Day 5</h3><p>Got up early and drove to the other end of the road, Ke&#8217;e beach, from where we hiked the Kalalau trail along the Napali coast 11 miles to Kalalau Beach. The trail is notorious for some scary bits along cliffs, but, being used to hiking in the mountains, we did just fine. On the other hand we lost a lot of time slipping along muddy sections of the trail (the first 2 miles were worst). Not to mention time lost crossing several streams (though none more than knee-deep) and filtering water. We also went through several cycles of getting rained on and drying out again, never bothered getting out our rain jackets. Reached Kalalau Valley as the sun was setting. The evening light combined with a rainbow or two made for a very scenic setting. By the time we reached the campground at the other end of the valley, it was dark. Surprised to find the campground packed; took us a while to find an even spot between the tents. [<a href="http://connect.garmin.com/proxy/activity-service-1.0/kml/activity/30268031?full=true" target="_blank" rel="external">Tracklog</a>]</p>
+<h3 id="Day-6"><a href="#Day-6" class="headerlink" title="Day 6"></a>Day 6</h3><p>Wished we had a day to explore the valley and talk to the friendly &#8220;locals&#8221;, but we had to head back out&#8230;</p>
+<table style="width:194px;"><br>  <tr><br>    <td align="center" style="height:194px;background:url(http://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left"><br>      <a href="http://picasaweb.google.com/eric.jain/KalalauTrailApril2010?feat=embedwebsite" target="_blank" rel="external"><img src="http://lh3.ggpht.com/_GeX70u05z6k/S8wBfGhz3xE/AAAAAAAApyk/nbryrDXxDbo/s160-c/KalalauTrailApril2010.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a><br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><br>      <a href="http://picasaweb.google.com/eric.jain/KalalauTrailApril2010?feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;" target="_blank" rel="external">Kalalau Trail Photos</a><br>    </td><br>  </tr><br></table>
+
+<h3 id="Day-7"><a href="#Day-7" class="headerlink" title="Day 7"></a>Day 7</h3><p>Long list of things to do on our last day: Find sea turtles (got lucky in the area next to Brennecker&#8217;s Beach, there was even a rare monk seal there). Visit the Museum in Lihue (no stunning exhibits, but interesting nevertheless). Return rented snorkeling gear. Clean our gear (and rental car). Return the snorkeling equipment. Buy gifts. Mail postcards. Print boarding passes. Even managed to swing by the Opaeka&#8217;a (yawn) and Wailua (wow) Falls [<a href="http://www.youtube.com/watch?v=DpTl_Ohjafc" target="_blank" rel="external">Movie</a>].</p>
+<h3 id="Day-8"><a href="#Day-8" class="headerlink" title="Day 8"></a>Day 8</h3><p>Our flight left early in the morning. On our last day a cold front had hit Hawaii; and since the weather back home in Seattle was nice, there was almost no noticeable difference when we got off the plane!</p>
+<h3 id="Useful-Resources"><a href="#Useful-Resources" class="headerlink" title="Useful Resources"></a>Useful Resources</h3><ul>
+<li><a href="http://www.amazon.com/Ultimate-Kauai-Guidebook-Revealed/dp/0971727953" target="_blank" rel="external">Ultimate Kauai Guidebook</a> incl <a href="http://www.wizardpub.com/kauai/kauupdate.html" target="_blank" rel="external">Updates</a> [<a href="http://www.amazon.com/review/R1YHVCI5D2W8WH/ref=cm_cr_rdp_perm" target="_blank" rel="external">My Review</a>]</li>
+<li><a href="http://www.tripadvisor.com/ShowForum-g29218-i304-Kauai_Hawaii.html" target="_blank" rel="external">Kauai Forum</a> at TripAdvisor &#8212; had all questions the guidebook didn&#8217;t cover answered there</li>
+<li><a href="http://www.kauaiexplorer.com/" target="_blank" rel="external">Kauai Explorer</a> &#8212; ocean report and list of beaches and hiking trails</li>
+<li><a href="http://www.wrcc.dri.edu/narratives/HAWAII.htm" target="_blank" rel="external">Climate of Hawaii</a> &#8212; some background information required to make sense of local weather forecasts</li>
+<li>National Weather Service: <a href="http://forecast.weather.gov/product.php?site=NWS&amp;issuedby=HFO&amp;product=AFD&amp;format=txt" target="_blank" rel="external">Area Forecast</a>; <a href="http://forecast.weather.gov/MapClick.php?zoneid=HIZ002&amp;TextType=1" target="_blank" rel="external">Windward</a>, <a href="http://forecast.weather.gov/MapClick.php?zoneid=HIZ003&amp;TextType=1" target="_blank" rel="external">Leeward</a> and <a href="http://forecast.weather.gov/MapClick.php?zoneid=HIZ004&amp;TextType=1" target="_blank" rel="external">Mountain</a> Forecasts</li>
+<li><a href="http://www.priceline.com/" target="_blank" rel="external">Priceline.com</a> &#8212; first time I used them, but seemed to work great for getting a good deal on the flight + hotel + car rental</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Trip report for a one-week vacation on Kauai (Hawaii), April 8th &amp;#8212; 15th.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Travel" scheme="https://ejain.github.io/categories/Travel/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hosting Applets in Google Docs</title>
+    <link href="https://ejain.github.io/2010/01/22//2010/01/22/hosting-applets-in-google-docs//"/>
+    <id>https://ejain.github.io/2010/01/22//2010/01/22/hosting-applets-in-google-docs//</id>
+    <published>2010-01-22T23:44:46.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Google Docs recently added support for <a href="http://docs.google.com/support/bin/answer.py?answer=50092" target="_blank" rel="external">uploading arbitrary files</a> (up to 250MB large). Can this be used to host Java applets?</p>
+<a id="more"></a>
+<p>I uploaded a jar file containing a simple test applet to Google Docs and referenced it like so:</p>
+<div class="wp_syntax"><br>  <table><br>    <tr><br>      <td class="code"><br>        <pre class="html4strict" style="font-family:monospace;"><span style="color: #009900;">&lt;<span style="color: #000000; font-weight: bold;">applet</span></span><br><span style="color: #009900;">  <span style="color: #000066;">width</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">“440”</span> <span style="color: #000066;">height</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">“60”</span></span><br><span style="color: #009900;">  <span style="color: #000066;">code</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">“JavaVersionDisplayApplet.class”</span></span><br><span style="color: #009900;">  <span style="color: #000066;">codebase</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">“<a href="http://docs.google.com/" target="_blank" rel="external">http://docs.google.com/</a>“</span></span><br><span style="color: #009900;">  <span style="color: #000066;">archive</span><span style="color: #66cc66;">=</span><span style="color: #ff0000;">“uc?id=0B9ANnqvnRtroOTM5YWE3YmMtMGZkMy00ZGE5LWE2NWUtOGZhNzk5MzA2NzBk”</span>&gt;</span><br><span style="color: #009900;">&lt;<span style="color: #66cc66;">/</span><span style="color: #000000; font-weight: bold;">applet</span>&gt;</span></pre><br>      </td><br>    </tr><br>  </table><br></div>
+
+<p>The result:</p>
+ <applet width="440" height="60" code="JavaVersionDisplayApplet.class" codebase="http://docs.google.com/" archive="uc?id=0B9ANnqvnRtroOTM5YWE3YmMtMGZkMy00ZGE5LWE2NWUtOGZhNzk5MzA2NzBk"></applet>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Google Docs recently added support for &lt;a href=&quot;http://docs.google.com/support/bin/answer.py?answer=50092&quot;&gt;uploading arbitrary files&lt;/a&gt; (up to 250MB large). Can this be used to host Java applets?&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://ejain.github.io/categories/Programming/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Sharing Tracklogs</title>
+    <link href="https://ejain.github.io/2009/11/12/sharing-tracklogs/"/>
+    <id>https://ejain.github.io/2009/11/12/sharing-tracklogs/</id>
+    <published>2009-11-12T08:00:00.000Z</published>
+    <updated>2017-02-21T09:04:03.781Z</updated>
+    
+    <content type="html"><![CDATA[<p>While hiking, I often carry along a <a href="http://www.garmin.com/products/etrexH/" target="_blank" rel="external">small GPS device</a> to record my tracks. This is not just useful in case I get lost and need to backtrack, but also allows me to <a href="http://www.robogeo.com/" target="_blank" rel="external">geotag</a> my pictures before <a href="http://picasaweb.google.com/eric.jain" target="_blank" rel="external">uploading</a> them. Plus it can be fun to review a hike in Google Earth. What about sharing tracklogs? This can be valuable when hiking in areas with outdated maps or maps hat don&#8217;t have all trails. So I had a look at some of the existing websites for sharing GPS tracklogs &#8212; here&#8217;s what I found.</p>
+<a id="more"></a>
+<p><a href="/2009/11/12/sharing-tracklogs/20091101.gpx"><img src="http://lh5.ggpht.com/_GeX70u05z6k/Su5n9DeylLI/AAAAAAAAgB4/z4L-IrVJsIM/s320/20091101-tracklog.jpg"></a><br><em>Tracklog in Google Earth</em></p>
+<h3 id="TrailRegistry"><a href="#TrailRegistry" class="headerlink" title="TrailRegistry"></a><a href="http://trailregistry.com/" target="_blank" rel="external">TrailRegistry</a></h3><p>TrailRegistry appears to be one of the oldest sites for sharing tracklogs. It also has the smartest approach, using a <a href="http://www.topofusion.com/network.php" target="_blank" rel="external">network algorithm</a> to consolidate overlapping tracklogs and remove noise. Unfortunately the site doesn&#8217;t appear to have had much effort invested into it since it was set up in 2003.</p>
+<h3 id="GPXchange"><a href="#GPXchange" class="headerlink" title="GPXchange"></a><a href="http://www.gpxchange.com/" target="_blank" rel="external">GPXchange</a></h3><p>GPXchange also appears to have been around since about 2003. The interface is similarly lacking and trail coverage isn&#8217;t great. No attempt is made to consolidate tracklogs.</p>
+<h3 id="GpsXChange-com"><a href="#GpsXChange-com" class="headerlink" title="GpsXChange.com"></a><a href="http://www.gpsxchange.com/" target="_blank" rel="external">GpsXChange.com</a></h3><p>GpsXChange.com is a simple forum where people can post tracklogs. Seems to have been around since circa 2006 &#8212; like the following sites. Finding a tracklog requires searching the forums e.g. with a trail name. There doesn&#8217;t appear to be a huge amount of participation.</p>
+<h3 id="Redtrails"><a href="#Redtrails" class="headerlink" title="Redtrails"></a><a href="http://redtrails.com/" target="_blank" rel="external">Redtrails</a></h3><p>Redtrails is based on the trail maps compiled by <a href="http://switchbacks.com/maps/NW_Trails.html" target="_blank" rel="external">Northwest Trails</a>, where you can submit tracklogs (and wait for them to be integrated into a consolidated trail map database which is released every month or so). This is by far the most comprehensive set of trails (for Washington State) that I came across.</p>
+<h3 id="EveryTrail"><a href="#EveryTrail" class="headerlink" title="EveryTrail"></a><a href="http://www.everytrail.com/" target="_blank" rel="external">EveryTrail</a></h3><p>EveryTrail is a Web 2.0-ish site where you can share a trip by uploading a tracklog and some pictures. Nice site to browse around, but if you are looking for a specific trail, your chances aren&#8217;t to good (unless it happens to be a major tourist attraction). Requires login to download raw tracklogs.</p>
+<h3 id="Wikiloc"><a href="#Wikiloc" class="headerlink" title="Wikiloc"></a><a href="http://www.wikiloc.com/" target="_blank" rel="external">Wikiloc</a></h3><p>Similar to EveryTrail. The interface is a bit less cluttered interface but I found only a dozen hiking trails for all of Washington State. Also requires login to download raw tracklogs.</p>
+<h3 id="Garmin-Connect"><a href="#Garmin-Connect" class="headerlink" title="Garmin Connect"></a><a href="http://connect.garmin.com/" target="_blank" rel="external">Garmin Connect</a></h3><p>The focus of this site seems to be more on keeping track of your fitness than providing hiking trail maps (e.g. it will show additional information such as the heart rate, if recorded), but it has the best interface for looking at tracklogs. There&#8217;s a reasonable amount of trails. Exports raw tracklogs in Garmin&#8217;s TCX rather than in the standard GPX format.</p>
+<h3 id="Trails-com"><a href="#Trails-com" class="headerlink" title="Trails.com"></a><a href="http://www.trails.com/" target="_blank" rel="external">Trails.com</a></h3><p>This site has been around since at least 2000, but they just started experimenting with letting people upload tracklogs. Tracklogs are attached to trail descriptions taken from books. But I couldn&#8217;t get this feature to work yet&#8230;</p>
+<h3 id="In-conclusion"><a href="#In-conclusion" class="headerlink" title="(In)conclusion"></a>(In)conclusion</h3><p>There is no shortage of options for uploading tracklogs. The ideal site would both store individual tracklogs and aggregate them into consensus trails &#8212; while making use of contextual information (How long ago was a tracklog recorded? During what season? Using what device? How reliable is the submitter?). Such as site does not appear to exist at the moment.</p>
+<p>I&#8217;m not sure I&#8217;d bother submitting my (sometimes messy) tracklogs to sites such as TrailRegistry or Northwest Trails. But I do want to make sure that the raw data is available to anyone who wants to crawl it. Hosting the raw files on this blog is an option, but that makes finding the files difficult for anyone but Google. So I&#8217;ll probably go with Garmin Connect or Gp(s)XChange.com…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;While hiking, I often carry along a &lt;a href=&quot;http://www.garmin.com/products/etrexH/&quot;&gt;small GPS device&lt;/a&gt; to record my tracks. This is not just useful in case I get lost and need to backtrack, but also allows me to &lt;a href=&quot;http://www.robogeo.com/&quot;&gt;geotag&lt;/a&gt; my pictures before &lt;a href=&quot;http://picasaweb.google.com/eric.jain&quot;&gt;uploading&lt;/a&gt; them. Plus it can be fun to review a hike in Google Earth. What about sharing tracklogs? This can be valuable when hiking in areas with outdated maps or maps hat don&amp;#8217;t have all trails. So I had a look at some of the existing websites for sharing GPS tracklogs &amp;#8212; here&amp;#8217;s what I found.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="recreation" scheme="https://ejain.github.io/tags/recreation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GTAC 2008</title>
+    <link href="https://ejain.github.io/2008/10/23//2008/10/23/gtac-2008//"/>
+    <id>https://ejain.github.io/2008/10/23//2008/10/23/gtac-2008//</id>
+    <published>2008-10-24T06:03:45.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Here are my take-away notes from the first day of the <a href="http://googletesting.blogspot.com/2008/04/gtac-2008-in-seattle.html" target="_blank" rel="external">Google Testing and Automation Conference</a>.</p>
+<a id="more"></a>
+<p><strong>James A. Whitaker (Microsoft) on <em>The Future of Testing</em>:</strong> Crowdsourcing testing (see e.g. <a href="http://www.utest.com/" target="_blank" rel="external">uTest</a>) is the simplest way to get an application tested on a large number of different platforms. Such services should also allow testers to focus more on designing rather than executing (manual) tests. Virtualisation could address the issue of hard to reproduce bugs by capturing the state of the machine as part of bug reports. Game testers use maps to highlight areas in game worlds that have been thoroughly tested. Similar visualizations could help people testing normal software what areas of the application need more testing.</p>
+<p><strong>Elfriede Dustin and Marcus Borch (IDT) on <em>Advances in Automated Software Testing Technologies</em></strong>: There are <a href="http://generatedata.com/" target="_blank" rel="external">tools that can help generate random test data</a>. The speakers spoke in great length about generating test code from customer supplied spreadsheets. Not sure if anyone in the audience understood what the advantage of this approach is &#8212; I didn&#8217;t.</p>
+<p><strong>Andres Almiray (Oracle) on <em>Boosting Your Testing Productivity with Groovy</em>:</strong> This was more about the advantages of Groovy in general than testing, though towards the end of the talk the speaker did show how to create mock objects (using MockFor/StubFor) and how to use DbUnit in Groovy (more or less the same way you&#8217;d use it in Java). Oh boy this guy really did drink the Kool-Aid&#8230;</p>
+<p><strong>Markus Clermont and John Thomas on <em>Taming the Beast: How to Test an AJAX Application</em>:</strong> The speakers did their best to keep he audience awake in this after-lunch talk. This got a bit tiring after the tenth &#8220;raise your hand if&#8230;&#8221;, but they had an excellent point: The amount of large, end-to-end tests (written e.g. with Selenium) should be minimized in favor of &#8220;medium&#8221;-sized tests that test interactions between specific components (one level deep).</p>
+<p><strong>Matt Wood (Sanger Institute) on <em>The New Genomics: Software Development at Petabyte Scale</em>:</strong> This was perhaps the most interesting talk, though it didn&#8217;t really go into testing at all!</p>
+<p><strong>Marc-Elian Bégin (Six2) on <em>Using Cloud Computing to Automate Full-Scale System Tests</em>:</strong> The case was made that Amazon EC2 is of great use for (system-level) testing. The speaker predicts that paravirtualization (e.g. with Xen) will increasingly be replaced with full virtualization (e.g. KVM), even though latter requires special hardware support (built into most newer processors?).</p>
+<p><strong>Vishal Chowdhary (Microsoft) on <em>Practicing Testablity in the Real World</em>:</strong> Good explanation of the basics of writing testable code, though perhaps a bit too basic for the audience that was present.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here are my take-away notes from the first day of the &lt;a href=&quot;http://googletesting.blogspot.com/2008/04/gtac-2008-in-seattle.html&quot;&gt;Google Testing and Automation Conference&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://ejain.github.io/categories/Programming/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Seattle by Land, Water and Air</title>
+    <link href="https://ejain.github.io/2008/08/05//2008/08/05/seattle-land-water-air//"/>
+    <id>https://ejain.github.io/2008/08/05//2008/08/05/seattle-land-water-air//</id>
+    <published>2008-08-06T00:11:10.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Having my sister visit me here in Seattle provided a good excuse to do some local sightseeing &#8212; first by land and water with the <a href="http://www.ridetheducksofseattle.com/" target="_blank" rel="external">Ducks of Seattle</a>, then by air with <a href="http://www.seattleseaplanes.com/" target="_blank" rel="external">Seattle Sea Planes</a>.</p>
+<a id="more"></a>
+<p>Here are the exact routes taken on these two tours:</p>
+<p><strong>Ride the Ducks of Seattle</strong></p>
+<div id="map-duck"><br></div>
+
+<p><a href="duck.gpx">Tracklog</a></p>
+<p><strong>Seattle Sea Planes</strong></p>
+<div id="map-plane"><br></div>
+
+<p><a href="plane.gpx">Tracklog</a> | <a href="http://picasaweb.google.com/eric.jain/SeattleSeaPlaneAugust2008" target="_blank" rel="external">Pictures</a></p>
+<p>The routes were recorded with a Garmin eTrex H, and the maps were created with <a href="http://www.robogeo.com/home/" target="_blank" rel="external">Robogeo</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Having my sister visit me here in Seattle provided a good excuse to do some local sightseeing &amp;#8212; first by land and water with the &lt;a href=&quot;http://www.ridetheducksofseattle.com/&quot;&gt;Ducks of Seattle&lt;/a&gt;, then by air with &lt;a href=&quot;http://www.seattleseaplanes.com/&quot;&gt;Seattle Sea Planes&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Travel" scheme="https://ejain.github.io/categories/Travel/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Edward Tufte&amp;#039;s Presenting Data and Information Course</title>
+    <link href="https://ejain.github.io/2008/07/18//2008/07/18/edward-tufte-presenting-data-and-information-course//"/>
+    <id>https://ejain.github.io/2008/07/18//2008/07/18/edward-tufte-presenting-data-and-information-course//</id>
+    <published>2008-07-18T23:08:31.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Here are some take-away notes from the course on <a href="http://www.edwardtufte.com/tufte/courses" target="_blank" rel="external">presenting data and information</a> that Edward Tufte gave in Seattle on July 17.</p>
+<a id="more"></a>
+<p><img src="tufte_books.gif" alt="Course Books"></p>
+<p>Don&#8217;t choose a visualization method in advance. The goal of a graphic is to invoke a <strong>content response</strong>, not a design response (i.e. wow, nice graph).</p>
+<p>Organization charts are not informative &#8212; unless the lines (relationships) are annotated.</p>
+<p>Every graphic should provide <strong>reasons to believe</strong>. Detail helps credibility and raises interest (as an extreme example consider aerial pictures). If you don&#8217;t show all the data you must be a &#8220;cherry picker&#8221;.</p>
+<p>Letting people look at data themselves stimulates their interest and gets them thinking (and has more impact). More data points means more &#8220;hooks&#8221; for people to (potentially) be interested in.</p>
+<p>When possible, bring <strong>something real</strong> to a presentation (for example a hospital bill when discussing medical expenses).</p>
+<p><strong>Annotate everything</strong> &#8212; even your text. Don&#8217;t use foot notes, create side notes.</p>
+<p>It rarely makes sense to order items in tables alphabetically.</p>
+<p>The Gil Sans font (a compact sans-serif font) works great for (time-)tables.</p>
+<p>Don&#8217;t go for the lowest common denominator. Don&#8217;t be &#8220;flabby &amp; generic&#8221;.</p>
+<p>Make presentations that make proper use of the human eye-brain system (which has a bandwidth of ~10Mbs).</p>
+<p>Tables outperform graphics up until ~500 data points.</p>
+<p>Respect both the content and the audience. Why is it that an average PowerPoint table contains only 12 numbers, but tables in the sports section of a magazine can burden their audience with an average of ~200 numbers?</p>
+<p>Distribute data in space (using multiple monitors, if must be) rather than not time (e.g. across several slides).</p>
+<p>People should have their names on their work (as pride often results in better work).</p>
+<p>Don&#8217;t separate information depending to its mode of production (e.g. in separate &#8220;multimedia&#8221; slide shows).</p>
+<p>Be aware that design often mimics the hierarchy in an organization.</p>
+<p>The original computer desktop at Xerox had icons for documents only (i.e. now trash icon etc).</p>
+<p>Create &#8220;infographics&#8221; that you can leave around (maybe people will give them another look during a following, boring presentation).</p>
+<p>&#8220;No matter how beautiful your interface is, it would be better if there was less of it&#8221; (though I don&#8217;t think he&#8217;d extend that all the way to command line interfaces).</p>
+<p>&#8220;Flat&#8221; interfaces beat &#8220;hierarchical&#8221; interfaces in terms of usability.</p>
+<p>Efforts to provide &#8220;personalized&#8221; interfaces are &#8220;pathetic&#8221; (shows that you don&#8217;t know how to present something, and try to offload the responsibility to the user).</p>
+<p>Going beyond <a href="http://en.wikipedia.org/wiki/Sparkline" target="_blank" rel="external">sparklines</a>: <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0002vW&amp;topic_id=1" target="_blank" rel="external">Wavefields</a> (?).</p>
+<p>Instead of doing &#8220;presentations&#8221;, dump the data on the audience, let them read through it, and then have a &#8220;guided discussion&#8221; (i.e. answer questions).</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here are some take-away notes from the course on &lt;a href=&quot;http://www.edwardtufte.com/tufte/courses&quot;&gt;presenting data and information&lt;/a&gt; that Edward Tufte gave in Seattle on July 17.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Usability" scheme="https://ejain.github.io/categories/Usability/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Manning Books in Safari Books</title>
+    <link href="https://ejain.github.io/2008/06/19//2008/06/19/manning-books-in-safari-books//"/>
+    <id>https://ejain.github.io/2008/06/19//2008/06/19/manning-books-in-safari-books//</id>
+    <published>2008-06-19T19:38:35.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Over the last few days several books from <a href="http://www.manning.com/" target="_blank" rel="external">Manning Publications</a> appear to have been added to <a href="http://my.safaribooksonline.com/" target="_blank" rel="external">Safari Books</a>.</p>
+<a id="more"></a>
+<p><img src="/2008/06/19/manning-books-in-safari-books/safari.png" alt="Safari Screen Shot"></p>
+<p>So far there are 11 books, from <a href="http://my.safaribooksonline.com/9781930110892" target="_blank" rel="external">Jess in Action</a> (published July 2003) to <a href="http://my.safaribooksonline.com/9781933988351" target="_blank" rel="external">jQuery in Action</a> (published February 2008). I&#8217;m somewhat surprised that there was no announcement (so far) on either company&#8217;s web sites&#8230; In any case I&#8217;m hoping that there is more to come!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Over the last few days several books from &lt;a href=&quot;http://www.manning.com/&quot;&gt;Manning Publications&lt;/a&gt; appear to have been added to &lt;a href=&quot;http://my.safaribooksonline.com/&quot;&gt;Safari Books&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://ejain.github.io/categories/Programming/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>No Fluff Just Stuff</title>
+    <link href="https://ejain.github.io/2008/04/20//2008/04/20/no-fluff-just-stuff//"/>
+    <id>https://ejain.github.io/2008/04/20//2008/04/20/no-fluff-just-stuff//</id>
+    <published>2008-04-21T05:25:04.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Spent this weekend at the <a href="http://www.nofluffjuststuff.com/conference/seattle/2008/04/index.html" target="_blank" rel="external">Spring 2008 Pacific Northwest Software Symposium</a>. Here are my notes (trimmed down to whatever I felt was new &amp; noteworthy to me) and some general comments about the event.</p>
+<a id="more"></a>
+<h3 id="Sessions"><a href="#Sessions" class="headerlink" title="Sessions"></a>Sessions</h3><p>These are the sessions I attended:</p>
+<ul>
+<li>TestNG with Code Coverage (Howard Lewis Ship)</li>
+<li>Groovy: Metaprogramming (Scott Davis)</li>
+<li>Professional Java UI Development with Eclipse RCP (Brian Sam-Bodden)</li>
+<li>The Busy Java Developers Guide to Concurrency (Ted Neward)</li>
+<li>Code Metrics &amp; Analysis for Agile Projects (Neal Ford)</li>
+<li>Building Web Apps with Spring OSGi (Craig Walls)</li>
+<li>The Busy Developer&#8217;s Guide to Debugging (Ted Neward)</li>
+<li>The Busy Developer&#8217;s Guide to Monitoring (Ted Neward)</li>
+<li>The Busy Developer&#8217;s Guide to Scala (Ted Neward)</li>
+<li>The Busy Developer&#8217;s Guide to Hacking on the JVM (Ted Neward)</li>
+</ul>
+<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><p>Test coverage should at least be 85% as there is often a significant number of bugs that are flushed out when you cross that threshold. But if you don&#8217;t aim for 100% coverage, there is the risk that you start copping out on testing the most difficult code!</p>
+<p>When using the <a href="http://www.eclemma.org/" target="_blank" rel="external">EclEmma</a> Eclipse plug-in for gathering code coverage statistics, set up separate build output folders &#8212; otherwise unit tests are included in the statistics (even if the unit test source folder is not selected).</p>
+<p><a href="http://cobertura.sourceforge.net/" target="_blank" rel="external">Cobertura</a> generates somewhat better code coverage statistics than <a href="http://emma.sourceforge.net/" target="_blank" rel="external">EMMA</a>, but lacks an IDE plug-in.</p>
+<p><a href="http://maven.apache.org/" target="_blank" rel="external">Maven</a> is a great idea, but using it for your project can be &#8220;like living with a dangerous psychopath&#8221; &#8212; it behaves when showing it to other people, but you never know when it will turn on you&#8230;.</p>
+<p>Ant has a <a href="http://ant.apache.org/manual/CoreTasks/presetdef.html" target="_blank" rel="external">presetdef</a> task that allows you to create an alias for a task, and set default attribute values.</p>
+<p><a href="http://testng.org/doc/" target="_blank" rel="external">TestNG</a> can be used both for unit and for functional tests. Test &#8220;groups&#8221; can distinguish the two (quirk: can&#8217;t directly select all tests that are not in a group). TestNG creates only one instance of each test class. TestNG can run tests in parallel (either at the class or at the method level). There is an @DataProvider mechanism that can return either an array of test data or an iterator. TestNG can run JUnit tests! Can also run Selenium RC from TestNG &#8212; check the Tapestry test code.</p>
+<p>New <a href="http://groovy.codehaus.org/" target="_blank" rel="external">Groovy</a> language features don&#8217;t require new Java versions. This may be attractive for people who are stuck with old versions of Java. Groovy even allows addition and modification of all methods at runtime via its <a href="http://groovy.codehaus.org/ExpandoMetaClass" target="_blank" rel="external">ExpandoMetaClass</a>, e.g. <code>String.metaClass.foo = { -&gt; delegate.toUppercase() }</code></p>
+<p>A JVM may map threads n:m at the OS level.</p>
+<p>Schedulers may do &#8220;priority inversion&#8221; when a low priority thread holds a lock required by a high priority thread.</p>
+<p>Build-specific deltas are more interesting than absolute numbers when looking at code metrics.</p>
+<p>The &#8220;teddy bear&#8221; debugging technique: Explain the problem to a teddy bear! Often you&#8217;ll realize what the problem is before you need to go bother a colleague&#8230;</p>
+<p>Should declare unchecked exceptions.</p>
+<p><code>-XX:OnOutOfMemoryError=cmd</code> sets a command that is run when we run out of memory.</p>
+<p><code>-XX:TraceClassLoading</code> shows where classes are loaded from.</p>
+<p>The <code>extconflict</code> tool (shipped with Sun&#8217;s Java) detects duplicate classes in lib/ext.</p>
+<p>Heisenberg principal: Monitoring a system always influences it (e.g. garbage collection activity due to jconsole connection).</p>
+<p>jconsole has a scripting plugin. Also consider using Groovy for scripting tasks.</p>
+<p><a href="http://www.scala-lang.org/" target="_blank" rel="external">Scala</a> is an (impure) functional language. Functional languages are great for concurrent programming (immutable objects, use of &#8220;actors&#8221; etc). But Scala won&#8217;t be ready for production use this year (or even next year). Get the <a href="http://www.artima.com/shop/forsale" target="_blank" rel="external">book</a>!</p>
+<p>Reflection can be used to read (and set) private fields, even in core classes such as java.lang.String! Going one step further: We can provide our own String implementation (use <code>-Xbootclasspath=...</code>).</p>
+<h3 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h3><p>Most of the talks were at a level of detail that if you happened to have read a book on the topic you weren&#8217;t likely to learn a lot. Nevertheless you were bound to pick up some useful stuff as (most of) the speakers were clearly not only quite experienced but also great speakers. Ideally you&#8217;d have the number one expert on each topic give the talk, but I realize that isn&#8217;t practical&#8230; Despite the &#8220;No Fluff&#8221; branding there was a lot of talk about how we all need to be &#8220;agile&#8221; etc. Nevertheless I think everyone managed to keep their feet on the ground, and in any case their were sufficient technical talks. Not to mention the food and free stuff :-)</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Spent this weekend at the &lt;a href=&quot;http://www.nofluffjuststuff.com/conference/seattle/2008/04/index.html&quot;&gt;Spring 2008 Pacific Northwest Software Symposium&lt;/a&gt;. Here are my notes (trimmed down to whatever I felt was new &amp;amp; noteworthy to me) and some general comments about the event.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://ejain.github.io/categories/Programming/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Using Java to Read Excel Files</title>
+    <link href="https://ejain.github.io/2008/02/14//2008/02/14/java-excel//"/>
+    <id>https://ejain.github.io/2008/02/14//2008/02/14/java-excel//</id>
+    <published>2008-02-15T03:06:35.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>I recently needed to add support for extracting data from Excel files (which are still ubiquitous in labs) to a Java application.</p>
+<a id="more"></a>
+<p>First I tried using <a href="http://poi.apache.org/hssf/" target="_blank" rel="external">POI-HSSF</a> (a well-known Apache project). The code is reasonably straightforward &#8212; though I had to get it from tutorials on the Web as I couldn&#8217;t find much in terms of documentation on their site, and the API isn&#8217;t exactly self-evident:</p>
+<div class="wp_syntax"><br>  <table><br>    <tr><br>      <td class="code"><br>        <pre class="java5" style="font-family:monospace;">POIFSFileSystem fs = <span style="color: #000000; font-weight: bold;">new</span> POIFSFileSystem<span style="color: #009900;">&#40;</span>in<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>HSSFWorkbook wb = <span style="color: #000000; font-weight: bold;">new</span> HSSFWorkbook<span style="color: #009900;">&#40;</span>fs<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>HSSFSheet sheet = wb.<span style="color: #006633;">getSheetAt</span><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;"></span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br><span style="color: #003399; font-weight: bold;">Iterator</span> rows = sheet.<span style="color: #006633;">rowIterator</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br><span style="color: #000000;  font-weight: bold;">while</span> <span style="color: #009900;">&#40;</span>rows.<span style="color: #006633;">hasNext</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br>    HSSFRow row = <span style="color: #009900;">&#40;</span>HSSFRow<span style="color: #009900;">&#41;</span> rows.<span style="color: #006633;">next</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>    <span style="color: #003399; font-weight: bold;">Iterator</span> cells = row.<span style="color: #006633;">cellIterator</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>    <span style="color: #003399; font-weight: bold;">List</span><span style="color: #339933;">&lt;</span>string<span style="color: #339933;">&gt;</span> fields = <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399; font-weight: bold;">ArrayList</span><span style="color: #339933;">&lt;</span>string<span style="color: #339933;">&gt;</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>    <span style="color: #000000;  font-weight: bold;">while</span> <span style="color: #009900;">&#40;</span>cells.<span style="color: #006633;">hasNext</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br>        HSSFCell cell = <span style="color: #009900;">&#40;</span>HSSFCell<span style="color: #009900;">&#41;</span> cells.<span style="color: #006633;">next</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>        <span style="color: #000000;  font-weight: bold;">switch</span> <span style="color: #009900;">&#40;</span>cell.<span style="color: #006633;">getCellType</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br>            <span style="color: #000000;  font-weight: bold;">case</span> HSSFCell.<span style="color: #006633;">CELL_TYPE_STRING</span>:<br>                fields.<span style="color: #006633;">add</span><span style="color: #009900;">&#40;</span>cell.<span style="color: #006633;">getStringCellValue</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>                <span style="color: #000000; font-weight: bold;">break</span><span style="color: #339933;">;</span><br>            <span style="color: #000000;  font-weight: bold;">case</span> HSSFCell.<span style="color: #006633;">CELL_TYPE_NUMERIC</span>:<br>                fields.<span style="color: #006633;">add</span><span style="color: #009900;">&#40;</span><span style="color: #003399; font-weight: bold;">Double</span>.<span style="color: #006633;">toString</span><span style="color: #009900;">&#40;</span>cell.<span style="color: #006633;">getNumericCellValue</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>                <span style="color: #000000; font-weight: bold;">break</span><span style="color: #339933;">;</span><br>            <span style="color: #000000;  font-weight: bold;">default</span>:<br>                log.<span style="color: #006633;">warn</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">“Unsupported cell type: “</span> + cell.<span style="color: #006633;">getCellType</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>                <span style="color: #000000; font-weight: bold;">break</span><span style="color: #339933;">;</span><br>        <span style="color: #009900;">&#125;</span><br>    <span style="color: #009900;">&#125;</span><br>    process<span style="color: #009900;">&#40;</span>fields<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br><span style="color: #009900;">&#125;</span></pre><br>      </td><br>    </tr><br>  </table><br></div>
+
+<p>This works fine &#8212; except that there doesn&#8217;t seem to be a way to keep the precision of numbers, i.e. if you don&#8217;t want to convert &#8220;4&#8221; to &#8220;4.0&#8221;! Fortunately POI isn&#8217;t the only game in town. I ended up using <a href="http://jexcelapi.sourceforge.net/" target="_blank" rel="external">JExcel API</a> which has a much simpler API (and behaves the way I want it to):</p>
+<div class="wp_syntax"><br>  <table><br>    <tr><br>      <td class="code"><br>        <pre class="java5" style="font-family:monospace;">Workbook workbook = Workbook.<span style="color: #006633;">getWorkbook</span><span style="color: #009900;">&#40;</span>in<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>Sheet sheet = workbook.<span style="color: #006633;">getSheet</span><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;"></span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br><span style="color: #000000;  font-weight: bold;">for</span> <span style="color: #009900;">&#40;</span><span style="color: #006600; font-weight: bold;">int</span> i = <span style="color: #cc66cc;"></span><span style="color: #339933;">;</span> i <span style="color: #339933;">&lt;</span> sheet.<span style="color: #006633;">getRows</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> ++i<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br>    <span style="color: #003399; font-weight: bold;">List</span><span style="color: #339933;">&lt;</span>string<span style="color: #339933;">&gt;</span> fields = <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399; font-weight: bold;">ArrayList</span><span style="color: #339933;">&lt;</span>string<span style="color: #339933;">&gt;</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>    <span style="color: #000000;  font-weight: bold;">for</span> <span style="color: #009900;">&#40;</span><span style="color: #006600; font-weight: bold;">int</span> j = <span style="color: #cc66cc;"></span><span style="color: #339933;">;</span> j <span style="color: #339933;">&lt;</span> sheet.<span style="color: #006633;">getColumns</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> ++j<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span><br>        fields.<span style="color: #006633;">add</span><span style="color: #009900;">&#40;</span>sheet.<span style="color: #006633;">getCell</span><span style="color: #009900;">&#40;</span>j, i<span style="color: #009900;">&#41;</span>.<span style="color: #006633;">getContents</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br>    <span style="color: #009900;">&#125;</span><br>    process<span style="color: #009900;">&#40;</span>fields<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span><br><span style="color: #009900;">&#125;</span></pre><br>      </td><br>    </tr><br>  </table><br></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I recently needed to add support for extracting data from Excel files (which are still ubiquitous in labs) to a Java application.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://ejain.github.io/categories/Programming/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Blist</title>
+    <link href="https://ejain.github.io/2008/02/12//2008/02/12/blist//"/>
+    <id>https://ejain.github.io/2008/02/12//2008/02/12/blist//</id>
+    <published>2008-02-13T07:38:10.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://www.blist.com/" target="_blank" rel="external">Blist</a> is an interesting cross between a spreadsheet application and an interface to a proper database. The goal (I believe) is to allow mere mortals to create and share simple databases on the Web.</p>
+<a id="more"></a>
+<p>Upon logging in and creating a &#8220;blist&#8221;, you are presented with a spreadsheet-like view. You then drag and drop data types onto the spreadsheet to create columns.</p>
+<p><img src="/2008/02/12/blist/screenshot.png" alt="Screenshot"></p>
+<p>&#8220;Lenses&#8221; can be created to get non-tabular (and filtered) views of your data. Data can be entered directly both in the table or in the &#8220;lense&#8221; views. There are options to share and discuss &#8220;blists&#8221; &#8212; however these don&#8217;t seem to be implemented yet.</p>
+<p>Blist is still in a very early stage. Following are some comments, based on my initial impression.</p>
+<h3 id="Neat"><a href="#Neat" class="headerlink" title="Neat!"></a>Neat!</h3><p>In addition to the standard data types (text, numbers, dates etc) there are lots of unusual but useful data types such as email addresses, images, and star ratings.</p>
+<p>Columns (unlike in a normal spreadsheet) can be set to allow multiple values in a single &#8220;cell&#8221; (possible, but cumbersome to implement with a normal database).</p>
+<p>You can easily create &#8220;custom types&#8221; a.k.a. &#8220;pick lists&#8221; or enumerations.</p>
+<p>It is possible to group/nest columns one level deep, creating a &#8220;blist-in-a-blist&#8221;.</p>
+<p>Blist (unlike a normal database) doesn&#8217;t prevent invalid values in fields that expect a certain format. But (unlike a normal spreadsheet) invalid values are highlighted.</p>
+<h3 id="Suggestions-8230"><a href="#Suggestions-8230" class="headerlink" title="Suggestions&#8230;"></a>Suggestions&#8230;</h3><p>If non-technical users are the main audience, it may be worth thinking about making the interface less intimidating. Too many buttons and controls!</p>
+<p>Features that haven&#8217;t been implemented yet would probably better be hidden from view. It&#8217;s frustrating to not know if a button is disabled because you&#8217;re in the wrong mode, or because it isn&#8217;t implemented yet&#8230;</p>
+<p>Support for undoing actions (and fewer prompts).</p>
+<p>Support for changing the data type of a column (e.g. from number to string).</p>
+<p>There is a nice calendar control for entering dates. Unfortunately it can&#8217;t be bypassed &#8212; if you want to enter an old date you need to go back in time month by month&#8230; The money data type is nice, too, but seems to be USD only.</p>
+<p>Some of the data types muddle the distinction between data type and display. For example, is a checkbox really a different data type than a boolean &#8212; or is it just another way to display boolean values?</p>
+<p>Help, Firefox eats all my memory! (May be an issue with Flash?)</p>
+<p>I bet a geo-location data type and map view is already being worked on&#8230;</p>
+<p>If the query builder showed a preview of the results, this would save some tedious back and forth when building queries. Speaking of search: Where is the quick search?</p>
+<p>Should be able to link blists to each other (one of the killer features of relational databases)!</p>
+<p>Support copy-pasting single (and multiple) cells.</p>
+<p>Finally, there is a typo in the &#8220;downloading Lenss&#8221; status message :-)</p>
+<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>While Blist isn&#8217;t the first effort to do spreadsheets or databases on the Web (think <a href="http://docs.google.com/" target="_blank" rel="external">Google Spreadsheet</a> or <a href="http://www.freebase.com/" target="_blank" rel="external">Freebase</a>), the way it combines the best features from both worlds seems new (to me, at least).</p>
+<p>Will be interesting to see how the &#8220;social&#8221; features are implemented &#8212; and of course if their infrastructure manages to scale (especially once they enable the data import feature and people start dumping existing collections into Blist)!</p>
+<div id="2008-02-20" style="font-size: smaller"><br>  <h3 style="color: red"><br>    Update (February 20, 2008)<br>  </h3><br><br>  <p><br>    Some more suggestions regarding the <a href="http://blog.blist.com/index.php/2008/02/20/new-features-excel-import-sharing-charts-search/" target="_blank" rel="external">features added in the latest release</a>:<br>  </p><br><br>  <ul><br>    <li><br>      Import: Support tab-delimited files in addition to CSV? Auto-detect e.g. numeric columns? Support creating custom types during import? Need to know a bit more than &#8220;There was a problem uploading your file&#8221; if something goes wrong!<br>    </li><br>    <li><br>      Charts: This will be useful once aggregates are supported! Can the generated charts be copy-pasted into e.g. PowerPoint?<br>    </li><br>    <li><br>      Search: Don&#8217;t need substring matches &#8212; but more speed! Highlight matches? Support for multiple search terms? Searches across several blists?<br>    </li><br>    <li><br>      Sharing: Will there be a way to make blists public, and link to them?<br>    </li><br>  </ul><br></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.blist.com/&quot;&gt;Blist&lt;/a&gt; is an interesting cross between a spreadsheet application and an interface to a proper database. The goal (I believe) is to allow mere mortals to create and share simple databases on the Web.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Review" scheme="https://ejain.github.io/categories/Review/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Amos Bairoch Action Figure</title>
+    <link href="https://ejain.github.io/2007/12/04//2007/12/04/amos-bairoch-action-figure//"/>
+    <id>https://ejain.github.io/2007/12/04//2007/12/04/amos-bairoch-action-figure//</id>
+    <published>2007-12-05T03:17:47.000Z</published>
+    <updated>2017-01-12T08:35:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>While looking for a birthday and farewell (I was just leaving the <a href="http://www.expasy.org/people/swissprot.html" target="_blank" rel="external">Swiss-Prot group</a>) present for <a href="http://en.wikipedia.org/wiki/Amos_Bairoch" target="_blank" rel="external">Amos Bairoch</a>, I came across <a href="http://highlyflammabletoys.com/" target="_blank" rel="external">a company that creates custom action figures</a>. Here&#8217;s the result!</p>
+<a id="more"></a>
+<table class="gallery" cellspacing="10"><br>  <tr><br>    <td width="200" height="200" align="center" bgcolor="#EEEEEE"><br>      <a href="images/figure.jpg"><img border="0" src="thumbnails/figure.jpg"></a><br>    </td><br><br>    <td width="200" height="200" align="center" bgcolor="#EEEEEE"><br>      <a href="images/front.jpg"><img border="0" src="thumbnails/front.jpg"></a><br>    </td><br><br>    <td width="200" height="200" align="center" bgcolor="#EEEEEE"><br>      <a href="images/back.jpg"><img border="0" src="thumbnails/back.jpg"></a><br>    </td><br>  </tr><br><br>  <tr><br>    <td width="200" valign="top"><br>      Figure<br>&nbsp;<br>    </td><br><br>    <td width="200" valign="top"><br>      Packaging Front<br>&nbsp;<br>    </td><br><br>    <td width="200" valign="top"><br>      Packaging Back<br>&nbsp;<br>    </td><br><br>    </tr><tr><br>      </tr></table>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;While looking for a birthday and farewell (I was just leaving the &lt;a href=&quot;http://www.expasy.org/people/swissprot.html&quot;&gt;Swiss-Prot group&lt;/a&gt;) present for &lt;a href=&quot;http://en.wikipedia.org/wiki/Amos_Bairoch&quot;&gt;Amos Bairoch&lt;/a&gt;, I came across &lt;a href=&quot;http://highlyflammabletoys.com/&quot;&gt;a company that creates custom action figures&lt;/a&gt;. Here&amp;#8217;s the result!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Humor" scheme="https://ejain.github.io/categories/Humor/"/>
+    
+      <category term="Life Science" scheme="https://ejain.github.io/categories/Humor/Life-Science/"/>
+    
+    
+  </entry>
+  
+</feed>
