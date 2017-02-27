@@ -1,0 +1,119 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><meta name="author" content="Eric Jain"><title>Producing Open Source Software - Eric Jain's Blog</title><link rel="alternate" type="application/rss+xml" title="Eric Jain's Blog" href="/blog/atom.xml"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="/blog/css/main.css"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"></head><body><nav class="navbar navbar-default navbar-custom"><div class="container-fluid"><div class="navbar-header"><a href="/blog/" class="navbar-brand">Eric Jain's Blog</a></div></div></nav><header class="header-section"><div class="intro-header no-img"><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class="post-heading"><h1>Producing Open Source Software</h1><p class="post-meta">January 23, 2006 · <a href="/blog/tags/Programming/" class="tag post-meta">Programming</a> · <a href="/blog/tags/review/" class="tag post-meta">Review</a></p></div></div></div></div></div></header><div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><article role="main" class="blog-post"><p>Here are some notes on the book <a href="http://amazon.com/gp/product/0596007590">Producing Open Source Software</a>. The book does an excellent job of explaining how open source projects work and how they deal with typical problems.</p>
+<h3 id="How-to-motivate-people-to-contribute-to-your-project"><a href="#How-to-motivate-people-to-contribute-to-your-project" class="headerlink" title="How to motivate people to contribute to your project?"></a>How to motivate people to contribute to your project?</h3><blockquote>
+<p>People should feel that their connection to a project, and influence over it, is directly proportional to their contributions. </p>
+<p>As slow and cumbersome as public discussions can be, they’re almost always preferable in the long run. Making important decisions in private is like spraying contributor repellent on your project. No serious volunteer would stick around for long in an environment where a secret council makes all the big decisions. </p>
+</blockquote>
+<p>Also, first impressions count. The project web site should make it clear what the project is about and what the status of the project is. Downloading a project snapshot and getting started should not require a lot of fiddling around.</p>
+<h3 id="How-to-get-people-to-work-together"><a href="#How-to-get-people-to-work-together" class="headerlink" title="How to get people to work together?"></a>How to get people to work together?</h3><blockquote>
+<p>One of the best ways to foster a productive development community is to get people looking at each others’ code. </p>
+</blockquote>
+<h3 id="What-infrastructure-is-required"><a href="#What-infrastructure-is-required" class="headerlink" title="What infrastructure is required?"></a>What infrastructure is required?</h3><p>The minimum infrastructure almost any project will need is:</p>
+<ul>
+<li>a web site</li>
+<li>archived and searchable mailing lists</li>
+<li>a version control system containing everything except generated files</li>
+<li>a bug tracking system</li>
+<li>some kind of real-time chat</li>
+</ul>
+<p>If you also have a Wiki take care of duplicate content and inconsistent style:</p>
+<blockquote>
+<p>have editorial standards, and demonstrate them not only by posting them, but by editing pages to adhere to them. </p>
+</blockquote>
+<p>This is important because:</p>
+<blockquote>
+<p>wikis will amplify any failings in their original material. </p>
+</blockquote>
+<p>Proper discussions should take place on mailing lists, not in the bug tracker.</p>
+<h3 id="Who-makes-the-decisions"><a href="#Who-makes-the-decisions" class="headerlink" title="Who makes the decisions?"></a>Who makes the decisions?</h3><p>Most projects either have a “benevolent dictator” or a some kind of decentralized decision making process. “Benevolent”, because:</p>
+<blockquote>
+<p>quality developers won’t stay around unless they have some influence on the project’s direction </p>
+<p>Forks, are the reason there are no true dictators in free software projects. </p>
+</blockquote>
+<p>The “benevolent dictator” is often the founder of the project:</p>
+<blockquote>
+<p>if it’s simply obvious to everyone who should be the [benevolent dictator], then that’s the way to go. But if no candidate for [benevolent dictator] is immediately obvious, then the project should probably use a decentralized decision-making process </p>
+<p>The [benevolent dictator] position is neither acquired nor held by virtue of intimidating coding skills. What is important is experience and overall design sense &mdash; not necessarily the ability to produce good design on demand, but the ability to recognize good design, whatever its source. </p>
+<p>As projects get older, they tend to move away from the benevolent dictatorship model and toward more openly democratic systems. </p>
+</blockquote>
+<p>How does this work?</p>
+<blockquote>
+<p>Most conversation in a project is on technical topics […] Consensus-based governance works well because it blends seamlessly with the technical discussion itself. By the end of a discussion, there is often general agreement on what course to take. </p>
+</blockquote>
+<p>Consensus has its limits, though:</p>
+<blockquote>
+<p>Consensus merely means an agreement that everyone is willing to live with. </p>
+<p>When Consensus Cannot Be Reached, Vote </p>
+</blockquote>
+<p>But voting should be rare:</p>
+<blockquote>
+<p>Don’t think of voting as a great way to resolve debates. It isn’t. It ends discussion, and thereby ends creative thinking about the problem. As long as discussion continues, there is the possibility that someone will come up with a new solution everyone likes. This happens surprisingly often </p>
+</blockquote>
+<p>Better decisions can be made by using “approval voting”, where each participant can vote for several proposals.</p>
+<p>Who gets to vote? Use an existing distinction, e.g. everyone with commit rights.</p>
+<h3 id="How-to-participate-as-a-company"><a href="#How-to-participate-as-a-company" class="headerlink" title="How to participate as a company?"></a>How to participate as a company?</h3><p>First of all, “play by the same rules as everyone else”.</p>
+<blockquote>
+<p>“credibility is a valuable currency to have in technical discussions: it’s immunization against having one’s motives questioned later. In the heat of argument, people will sometimes look for non-technical ways to win the battle.” </p>
+</blockquote>
+<h3 id="What-about-communication-skills"><a href="#What-about-communication-skills" class="headerlink" title="What about communication skills?"></a>What about communication skills?</h3><blockquote>
+<p>The ability to write clearly is perhaps the most important skill one can have in an open source environment. </p>
+</blockquote>
+<p>Some tips:</p>
+<blockquote>
+<p>Write in complete sentences, capitalizing the first word of each sentence, and use paragraph breaks where needed. </p>
+<p>In IRC or similarly ephemeral forums, it’s generally okay to leave out capitalization, use compressed forms of common expressions, etc. </p>
+</blockquote>
+<p>Always take care to choose a good subject line in e-mail messages.</p>
+<p>Observation on the communication style of the typical open source project participant:</p>
+<blockquote>
+<p>No greeting, no sign-off other than his name, and the message itself is just a series of questions phrased as compactly as possible. […] A degree of terseness that would be unacceptable in normal social interactions is simply the default for free software hackers. </p>
+</blockquote>
+<p>Nevertheless you should consider that</p>
+<blockquote>
+<p>by being sensitive to the tone of your own writing, you can have a surprising amount of influence over how others feel, to the ultimate benefit of the project. </p>
+</blockquote>
+<h3 id="How-to-keep-discussions-on-topic"><a href="#How-to-keep-discussions-on-topic" class="headerlink" title="How to keep discussions on topic?"></a>How to keep discussions on topic?</h3><blockquote>
+<p>It is unfortunately very easy, and all too typical, for constructive discussions to lapse into destructive flame wars. </p>
+</blockquote>
+<p>Bad behavior should be “consistently called out” but:</p>
+<blockquote>
+<p>never make the meta-discussion the main topic. It should always be an aside, a brief preface to the main portion of your response. Point out in passing that “we don’t do things that way around here,” but then move on to the real content, so that you’re giving people something on-topic to respond to. </p>
+</blockquote>
+<p>Regarding “rudeness”:</p>
+<blockquote>
+<p>One of the defining characteristics of open source culture is its distinctive notions of what does and does not constitute rudeness. While the conventions described below are not unique to free software development, nor even to software in general &mdash; they would be familiar to anyone working in mathematics, the hard sciences, or engineering disciplines. </p>
+<p>Technical criticism, even when direct and unpadded, is not rude. Indeed, it can be a form of flattery: the critic is saying, by implication, that the target is worth taking seriously, and is worth spending some time on.” Also: Blunt, unadorned questions, are not rude either. Questions that in other contexts might seem cold, rhetorical, or even mocking, are often intended seriously, and have no hidden agenda other than eliciting information as quickly as possible. </p>
+</blockquote>
+<p>How to deal with truly rude people:</p>
+<blockquote>
+<p>comment on the rudeness the first time, and from then on, either ignore them or treat them the same as anyone else. If they continue being rude, they will usually make themselves so unpopular as to have no influence on others in the project, so they are a self-containing problem. </p>
+</blockquote>
+<p>Discussions are unproductive when they are not concrete enough:</p>
+<blockquote>
+<p>consensus is hardest to achieve in technical questions that are simple to understand and easy to have an opinion about […] People can participate in those arguments forever, because there are no qualifications necessary for doing so and no clear ways to decide (even afterward) if a decision was right or wrong </p>
+</blockquote>
+<p>There are also a few “holy war” topics on which it is unlikely that agreement can ever be reached. Simply saying “Can we please just drop it?” will not help. Consider giving up unless you really care, but remember that “giving up is effective only when done gracefully” (i.e. don’t say things like “I never though this was a good idea anyway”). If you feel that giving in would delay the project too much, justify your choice as “practical”, rather than as the “academic best”.</p>
+<p>Once in a while there are “difficult people”, i.e. people “who are not overtly rude, but who manipulate or abuse the project’s processes in a way that ends up costing other people time and energy, yet do not bring any benefit to the project.” Before you attempt to kick anyone out of a project, be sure to gather evidence and get support from other participants, or your actions will backfire.</p>
+<h3 id="How-to-handle-growth"><a href="#How-to-handle-growth" class="headerlink" title="How to handle growth?"></a>How to handle growth?</h3><blockquote>
+<p>The more a project grows, the more important this sort of consistency becomes. Consistency means that everywhere people look, they see the same patterns being followed, so they know to follow those patterns themselves. This, in turn, reduces the number of questions they need to ask. The burden of having a million readers is no greater than that of having one; scalability problems start to arise only when a certain percentage of those readers ask questions. As a project grows, therefore, it must reduce that percentage by increasing the density and accessibility of information, so that any given person is more likely to find what she needs without having to ask. </p>
+</blockquote>
+<h3 id="How-to-deal-with-versioning"><a href="#How-to-deal-with-versioning" class="headerlink" title="How to deal with versioning?"></a>How to deal with versioning?</h3><blockquote>
+<p>Those three labels &mdash; Alpha, Beta, and RC &mdash; are pretty widely known now, and I don’t recommend using any of the others, even though the others might at first glance seem like better choices […] But people who install software from releases are already familiar with the big three, and there’s no reason to do things gratuitously differently from the way everyone else does them. </p>
+</blockquote>
+<p>Starting from the 1.0 release it makes sense to distinguish:</p>
+<ul>
+<li>major releases: new features, may be backwards-incompatible</li>
+<li>minor releases: some new features</li>
+<li>micro releases: bug fixes, small improvements</li>
+</ul>
+<p>If you don’t want to halt all development while a release is being prepared you will need to <a href="http://cvsbook.red-bean.com/cvsbook.html#Branches">branch</a>.</p>
+<h3 id="How-to-deal-with-politics"><a href="#How-to-deal-with-politics" class="headerlink" title="How to deal with politics?"></a>How to deal with politics?</h3><blockquote>
+<p>The distaste for politics is especially strong in engineers because engineers are bought into the idea that some solutions are objectively superior to others. Thus, when someone acts in a way that seems motivated by outside considerations &mdash; say, the maintenance of his own position of influence, the lessening of someone else’s influence, outright horse-trading, or avoiding hurting someone’s feelings &mdash; other participants in the project may get annoyed. </p>
+</blockquote>
+<p>But “no one is above politics” because “politics is simply what happens when people disagree, and successful projects are those that evolve political mechanisms for managing disagreement constructively.”</p>
+<p>If you delegate a task, always follow up!</p>
+<blockquote>
+<p>If someone does not improve in response to criticism, the solution is not more or stronger criticism. The solution is for the group to remove that person from the position of incompetence, in a way that minimizes hurt feelings as much as possible </p>
+<p>Watch out for participants who try to stake out exclusive ownership of certain areas of the project, and who seem to want to do all the work in those areas, to the extent of aggressively taking over work that others start. Such behavior may even seem healthy at first. After all, on the surface it looks like the person is taking on more responsibility, and showing increased activity within a given area. But in the long run, it is destructive. </p>
+</blockquote>
+<p>Finally, remember to credit people, but always be specific.</p>
+</article></div></div></div><footer><div class="container beautiful-jekyll-footer"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><ul class="list-inline text-center footer-links"><li><a href="/atom.xml" title="RSS"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-rss"></i></span></a></li><li><a href="mailto:eric.jain@gmail.com" title="Email me"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-envelope"></i></span></a></li><li><a href="https://www.linkedin.com/in/ejain" title="LinkedIn"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-linkedin"></i></span></a></li><li><a href="https://plus.google.com/+EricJain" title="Google+"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-google-plus"></i></span></a></li><li><a href="https://github.com/ejain" title="GitHub"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-stack-1x fa-inverse fa-github"></i></span></a></li></ul><p class="copyright text-muted">© 2017 Eric Jain</p></div></div></div></footer></body></html>

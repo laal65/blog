@@ -24,7 +24,7 @@ while (rows.hasNext()) {
     }
     process(fields);
 }
-</code></pre><p>This works fine – except that there doesn’t seem to be a way to keep the precision of numbers, i.e. if you don’t want to convert “4” to “4.0”! Fortunately POI isn’t the only game in town. I ended up using <a href="http://jexcelapi.sourceforge.net/">JExcel API</a> which has a much simpler API (and behaves the way I want it to):</p>
+</code></pre><p>This works fine–except that there doesn’t seem to be a way to keep the precision of numbers, i.e. if you don’t want to convert “4” to “4.0”! Fortunately POI isn’t the only game in town. I ended up using <a href="http://jexcelapi.sourceforge.net/">JExcel API</a> which has a much simpler API (and behaves the way I want it to):</p>
 <pre><code>Workbook workbook = Workbook.getWorkbook(in);
 Sheet sheet = workbook.getSheet(0);
 for (int i = 0; i &lt; sheet.getRows(); ++i) {
