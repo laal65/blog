@@ -105,6 +105,38 @@
   </entry>
   
   <entry>
+    <title>Smoothies</title>
+    <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
+    <id>http://eric.jain.name/2017/01/06/smoothies/</id>
+    <published>2017-01-06T08:00:00.000Z</published>
+    <updated>2017-03-05T23:29:53.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (for now):</p>
+<p><img src="ingredients.jpg" alt=""></p>
+<ol>
+<li>1 cup yoghurt</li>
+<li>1 tsp spirulina</li>
+<li>1 tsp chia seeds</li>
+<li>2 tsp golden flaxseed meal</li>
+<li>1 cup frozen fruit (mango, pineapple, strawberry, caranberry, blueberry, banana)</li>
+<li>1 leaf collard green and lacinato kale</li>
+</ol>
+<p>I <a href="https://www.nutribulletpro.com/">blend this</a> for just under a minute, sprinkle some granola on top, and this is the result:</p>
+<p><img src="bowl.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (
+    
+    </summary>
+    
+    
+      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Flights in 2015</title>
     <link href="http://eric.jain.name/2016/01/01/flights/"/>
     <id>http://eric.jain.name/2016/01/01/flights/</id>
@@ -807,59 +839,6 @@ for (int i = 0; i &lt; sheet.getRows(); ++i) {
     
       <category term="Programming" scheme="http://eric.jain.name/categories/programming/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Blist</title>
-    <link href="http://eric.jain.name/2008/02/12/blist/"/>
-    <id>http://eric.jain.name/2008/02/12/blist/</id>
-    <published>2008-02-12T08:00:00.000Z</published>
-    <updated>2017-02-28T08:18:02.871Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://www.blist.com/">Blist</a> is an interesting cross between a spreadsheet application and an interface to a proper database. The goal (I believe) is to allow mere mortals to create and share simple databases on the Web.</p>
-<p>Upon logging in and creating a “blist”, you are presented with a spreadsheet-like view. You then drag and drop data types onto the spreadsheet to create columns.</p>
-<p><img src="screenshot.png" alt="Screenshot"></p>
-<p>“Lenses” can be created to get non-tabular (and filtered) views of your data. Data can be entered directly both in the table or in the “lense” views. There are options to share and discuss “blists” – however these don’t seem to be implemented yet.</p>
-<p>Blist is still in a very early stage. Following are some comments, based on my initial impression.</p>
-<h3 id="Neat"><a href="#Neat" class="headerlink" title="Neat!"></a>Neat!</h3><p>In addition to the standard data types (text, numbers, dates etc) there are lots of unusual but useful data types such as email addresses, images, and star ratings.</p>
-<p>Columns (unlike in a normal spreadsheet) can be set to allow multiple values in a single “cell” (possible, but cumbersome to implement with a normal database).</p>
-<p>You can easily create “custom types” a.k.a. “pick lists” or enumerations.</p>
-<p>It is possible to group/nest columns one level deep, creating a “blist-in-a-blist”.</p>
-<p>Blist (unlike a normal database) doesn’t prevent invalid values in fields that expect a certain format. But (unlike a normal spreadsheet) invalid values are highlighted.</p>
-<h3 id="Suggestions…"><a href="#Suggestions…" class="headerlink" title="Suggestions…"></a>Suggestions…</h3><p>If non-technical users are the main audience, it may be worth thinking about making the interface less intimidating. Too many buttons and controls!</p>
-<p>Features that haven’t been implemented yet would probably better be hidden from view. It’s frustrating to not know if a button is disabled because you’re in the wrong mode, or because it isn’t implemented yet…</p>
-<p>Support for undoing actions (and fewer prompts).</p>
-<p>Support for changing the data type of a column (e.g. from number to string).</p>
-<p>There is a nice calendar control for entering dates. Unfortunately it can’t be bypassed – if you want to enter an old date you need to go back in time month by month… The money data type is nice, too, but seems to be USD only.</p>
-<p>Some of the data types muddle the distinction between data type and display. For example, is a checkbox really a different data type than a boolean – or is it just another way to display boolean values?</p>
-<p>Help, Firefox eats all my memory! (May be an issue with Flash?)</p>
-<p>I bet a geo-location data type and map view is already being worked on…</p>
-<p>If the query builder showed a preview of the results, this would save some tedious back and forth when building queries. Speaking of search: Where is the quick search?</p>
-<p>Should be able to link blists to each other (one of the killer features of relational databases)!</p>
-<p>Support copy-pasting single (and multiple) cells.</p>
-<p>Finally, there is a typo in the “downloading Lenss” status message :-)</p>
-<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>While Blist isn’t the first effort to do spreadsheets or databases on the Web (think <a href="http://docs.google.com/">Google Spreadsheet</a> or <a href="http://www.freebase.com/">Freebase</a>), the way it combines the best features from both worlds seems new (to me, at least).</p>
-<p>Will be interesting to see how the “social” features are implemented – and of course if their infrastructure manages to scale (especially once they enable the data import feature and people start dumping existing collections into Blist)!</p>
-<h3 id="Update-February-20-2008"><a href="#Update-February-20-2008" class="headerlink" title="Update (February 20, 2008)"></a>Update (February 20, 2008)</h3><p>Some more suggestions regarding the <a href="http://blog.blist.com/index.php/2008/02/20/new-features-excel-import-sharing-charts-search/">features added in the latest release</a>:</p>
-<ul>
-<li>Import: Support tab-delimited files in addition to CSV? Auto-detect e.g. numeric columns? Support creating custom types during import? Need to know a bit more than “There was a problem uploading your file” if something goes wrong!</li>
-<li>Charts: This will be useful once aggregates are supported! Can the generated charts be copy-pasted into e.g. PowerPoint?</li>
-<li>Search: Don’t need substring matches – but more speed! Highlight matches? Support for multiple search terms? Searches across several blists?</li>
-<li>Sharing: Will there be a way to make blists public, and link to them?</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://www.blist.com/&quot;&gt;Blist&lt;/a&gt; is an interesting cross between a spreadsheet application and an interface to a proper database
-    
-    </summary>
-    
-    
-      <category term="Programming" scheme="http://eric.jain.name/tags/programming/"/>
-    
-      <category term="Review" scheme="http://eric.jain.name/tags/review/"/>
     
   </entry>
   
