@@ -137,6 +137,55 @@
   </entry>
   
   <entry>
+    <title>Subaru Crosstrek</title>
+    <link href="http://eric.jain.name/2016/09/17/subaru-crosstrek/"/>
+    <id>http://eric.jain.name/2016/09/17/subaru-crosstrek/</id>
+    <published>2016-09-17T07:00:00.000Z</published>
+    <updated>2017-03-06T02:40:36.237Z</updated>
+    
+    <content type="html"><![CDATA[<p>With my 2008 Honda Civic approaching 100K miles, I decided it was time to replace it. The Civic had been very reliable, and put up with a lot of abuse from driving on bumpy dirt roads without any problems–apart from one broken motor mount. But I didn’t want to push my luck. Also, the upcoming winter is forecast to have proper snow again…</p>
+<p>Requirements:</p>
+<ul>
+<li>Good ground clearance and suspension, so I don’t have to crawl around every pothole, and be afraid of scraping the bottom of the car.</li>
+<li>Similar width and length as the old car, so I can park the car around town without causing too much damage.</li>
+<li>Adaptive cruise control, so I can use cruise control even when the road isn’t empty (and feel like the new car is more sophisticated than the old car).</li>
+<li>Silver color, so dirt and scratches aren’t quite as visble.</li>
+<li>Decent gas mileage (at least 30mpg).</li>
+<li>Cost &lt;$30K.</li>
+</ul>
+<p>Cars I considered:</p>
+<ul>
+<li>Honda HRV</li>
+<li>Mazda CX-5</li>
+<li>Subaru Crosstrek</li>
+</ul>
+<p>The HRV would have been an obvious choice, given my good experience with the Civic and the <a href="http://www.hondaofseattle.com/">Honda of Seattle</a> service department. Unfortunately, the HRV doesn’t have an option for adaptive cruise control (need to get the larger CRV for that), and the ground clearance isn’t great. The CX-5 and the Crosstrek have similar ground clearance, features, safety ratings etc. The CX-5 has an option for a more powerful engine, but feels more like an SUV than a compact car, so I decided to check out the Crosstrek first.</p>
+<p>I test-drove a Crosstrek two weeks ago at <a href="http://www.chaplinssubaru.com/">Chaplin Subaru</a>, and loved it, but no one had the configuration I was looking for. <a href="http://www.royrobinson.com/">Roy Robinson Subaru</a> was one of 3 dealers in the region to receive a matching Crosstrek today (and one of the easiest to deal with), so that’s who got my business!</p>
+<p><img src="crosstrek.jpg" alt="Crosstrek 2.0i Premium"></p>
+<p>Things I learned:</p>
+<ul>
+<li>Some dealers are still having a hard time with the internet. Had to restate my original request up to three times before getting an answer from some of them.</li>
+<li>If you are buying a popular model, finding a dealer who has a vehicle available can be tricky.</li>
+<li>Even so, every dealer (with the exception of Carter Subaru in Seattle) was willing the match prices, and sell at $1K “below invoice”, which happened to correspond to the price I got from <a href="https://www.truecar.com/">TrueCar</a>.</li>
+<li>Local sales taxes differ slightly from dealer to dealer; this can add up to a few hundred $.</li>
+<li>Dealers load up cars with optional features you might not need; doing a factory order could have saved me almost $1K.</li>
+<li>…however, negotiating a <a href="https://www.kbb.com/used-cars/">good trade-in value</a> for the old car would have been difficult with a factory order (which takes at least 6 weeks to deliver).</li>
+<li>Doing a trade-in has significant tax advantages.</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;With my 2008 Honda Civic approaching 100K miles, I decided it was time to replace it. The Civic had been very reliable, and put up with a
+    
+    </summary>
+    
+    
+      <category term="Gear" scheme="http://eric.jain.name/tags/gear/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Flights in 2015</title>
     <link href="http://eric.jain.name/2016/01/01/flights/"/>
     <id>http://eric.jain.name/2016/01/01/flights/</id>
@@ -782,63 +831,6 @@
     
     
       <category term="Programming" scheme="http://eric.jain.name/tags/programming/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Using Java to Read Excel Files</title>
-    <link href="http://eric.jain.name/2008/02/14/java-excel/"/>
-    <id>http://eric.jain.name/2008/02/14/java-excel/</id>
-    <published>2008-02-14T08:00:00.000Z</published>
-    <updated>2017-02-28T08:18:02.885Z</updated>
-    
-    <content type="html"><![CDATA[<p>I recently needed to add support for extracting data from Excel files (which are still ubiquitous in labs) to a Java application.</p>
-<p>First I tried using <a href="http://poi.apache.org/hssf/">POI-HSSF</a> (a well-known Apache project). The code is reasonably straightforward – though I had to get it from tutorials on the Web as I couldn’t find much in terms of documentation on their site, and the API isn’t exactly self-evident:</p>
-<pre><code>POIFSFileSystem fs = new POIFSFileSystem(in);
-HSSFWorkbook wb = new HSSFWorkbook(fs);
-HSSFSheet sheet = wb.getSheetAt(0);
-Iterator rows = sheet.rowIterator();
-while (rows.hasNext()) {
-    HSSFRow row = (HSSFRow) rows.next();
-    Iterator cells = row.cellIterator();
-    List&lt;string&gt; fields = new ArrayList&lt;string&gt;();
-    while (cells.hasNext()) {
-        HSSFCell cell = (HSSFCell) cells.next();
-        switch (cell.getCellType()) {
-            case HSSFCell.CELL_TYPE_STRING:
-                fields.add(cell.getStringCellValue());
-                break;
-            case HSSFCell.CELL_TYPE_NUMERIC:
-                fields.add(Double.toString(cell.getNumericCellValue()));
-                break;
-            default:
-                log.warn(&quot;Unsupported cell type: &quot; + cell.getCellType());
-                break;
-        }
-    }
-    process(fields);
-}
-</code></pre><p>This works fine–except that there doesn’t seem to be a way to keep the precision of numbers, i.e. if you don’t want to convert “4” to “4.0”! Fortunately POI isn’t the only game in town. I ended up using <a href="http://jexcelapi.sourceforge.net/">JExcel API</a> which has a much simpler API (and behaves the way I want it to):</p>
-<pre><code>Workbook workbook = Workbook.getWorkbook(in);
-Sheet sheet = workbook.getSheet(0);
-for (int i = 0; i &lt; sheet.getRows(); ++i) {
-    List&lt;string&gt; fields = new ArrayList&lt;string&gt;();
-    for (int j = 0; j &lt; sheet.getColumns(); ++j) {
-        fields.add(sheet.getCell(j, i).getContents());
-    }
-    process(fields);
-}
-</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;I recently needed to add support for extracting data from Excel files (which are still ubiquitous in labs) to a Java application.&lt;/p&gt;
-&lt;p&gt;
-    
-    </summary>
-    
-      <category term="Programming" scheme="http://eric.jain.name/categories/programming/"/>
-    
     
   </entry>
   
