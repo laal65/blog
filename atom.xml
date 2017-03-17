@@ -135,6 +135,40 @@
   </entry>
   
   <entry>
+    <title>Protein Shakes</title>
+    <link href="http://eric.jain.name/2017/01/06/protein-shakes/"/>
+    <id>http://eric.jain.name/2017/01/06/protein-shakes/</id>
+    <published>2017-01-06T08:00:00.000Z</published>
+    <updated>2017-03-17T05:43:15.982Z</updated>
+    
+    <content type="html"><![CDATA[<p>Here’s the recipe for my favorite post-exercise recovery drink:</p>
+<p><img src="ingredients.jpg" alt=""></p>
+<ol>
+<li>1 cup milk (or random <a href="http://www.pacificfoods.com/food/non-dairy-beverages.aspx">non-dairy beverage</a>)</li>
+<li>3 scoops <a href="https://www.raworganicwhey.com/">whey protein</a></li>
+<li>1 tsp <a href="https://healthworks.com/products/healthworks-raw-certified-organic-cacao-powder-1-lb">cacao powder</a></li>
+<li>1 tsp <a href="http://cbsnuts.com/wp/product/16oz-jar-cbs-peanut-butter-usa-grown/">peanut butter</a></li>
+<li>1 <a href="http://www.geekwire.com/2017/amazon-gives-5000-bananas-day-seattle/">banana</a></li>
+</ol>
+<p><a href="https://www.nutribulletpro.com/">Blending</a> this for half a minute results in a smooth, tasty shake. Goes well with dates or figs.</p>
+<p><img src="shake.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here’s the recipe for my favorite post-exercise recovery drink:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;ingredients.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;1 cup milk (or ran
+    
+    </summary>
+    
+    
+      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Smoothies</title>
     <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
     <id>http://eric.jain.name/2017/01/06/smoothies/</id>
@@ -779,29 +813,6 @@
     <summary type="html">
     
       &lt;p&gt;Here are some take-away notes from the course on &lt;a href=&quot;http://www.edwardtufte.com/tufte/courses&quot;&gt;presenting data and information&lt;/a&gt; t
-    
-    </summary>
-    
-    
-      <category term="Programming" scheme="http://eric.jain.name/tags/programming/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Manning Books in Safari Books</title>
-    <link href="http://eric.jain.name/2008/06/19/manning-books-in-safari-books/"/>
-    <id>http://eric.jain.name/2008/06/19/manning-books-in-safari-books/</id>
-    <published>2008-06-19T07:00:00.000Z</published>
-    <updated>2017-02-28T08:18:02.914Z</updated>
-    
-    <content type="html"><![CDATA[<p>Over the last few days several books from <a href="http://www.manning.com/">Manning Publications</a> appear to have been added to <a href="http://my.safaribooksonline.com/">Safari Books</a>.</p>
-<p><img src="safari.png" alt="Safari Screen Shot"></p>
-<p>So far there are 11 books, from <a href="http://my.safaribooksonline.com/9781930110892">Jess in Action</a> (published July 2003) to <a href="http://my.safaribooksonline.com/9781933988351">jQuery in Action</a> (published February 2008). I’m somewhat surprised that there was no announcement (so far) on either company’s web sites… In any case I’m hoping that there is more to come!</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Over the last few days several books from &lt;a href=&quot;http://www.manning.com/&quot;&gt;Manning Publications&lt;/a&gt; appear to have been added to &lt;a href
     
     </summary>
     
