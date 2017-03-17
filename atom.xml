@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eric.jain.name/"/>
-  <updated>2017-03-05T21:04:52.363Z</updated>
+  <updated>2017-03-17T06:22:58.132Z</updated>
   <id>http://eric.jain.name/</id>
   
   <author>
@@ -16,11 +16,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>First Aid Kit</title>
+    <link href="http://eric.jain.name/2017/03/17/first-aid-kit/"/>
+    <id>http://eric.jain.name/2017/03/17/first-aid-kit/</id>
+    <published>2017-03-17T07:00:00.000Z</published>
+    <updated>2017-03-17T06:22:58.132Z</updated>
+    
+    <content type="html"><![CDATA[<p>Here are the contents of the first aid kit I <a href="/2017/03/05/vehicle-equipment/">keep in the car</a>, and take along on hikes.</p>
+<p><img src="contents.jpg" alt=""></p>
+<ol>
+<li><a href="http://kk.org/cooltools/fenix-l1dce-fla/">Flashlight</a></li>
+<li>Oral Rehydration Salts</li>
+<li><a href="https://grabberwarmers.com/warmer-products/">Hand Warmer</a></li>
+<li><a href="http://www.adventuremedicalkits.com/quikclot-advanced-clotting-sponge-50g-2.html">QuikClot Sponge</a></li>
+<li>Paracord</li>
+<li>Signal Mirror</li>
+<li><a href="https://www.katadyn.com/us/us/403-8014996-micropur-mp1-20-usa-only">Water Purification Tablets</a></li>
+<li>Insect Bite Wipes</li>
+<li>Antibiotic Ointment</li>
+<li>Medications (Aspirin, Diamode, Ibuprofen, Diphenhydramine)</li>
+<li>Sun Screen</li>
+<li>Duct Tape</li>
+<li>Gauze</li>
+<li>Medical Tape</li>
+<li>Nivea Cream</li>
+<li>Fire Lighter</li>
+<li>Towel</li>
+<li>Gauze Pads</li>
+<li>Blister Pads</li>
+<li>Band-Aids</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Here are the contents of the first aid kit I &lt;a href=&quot;/2017/03/05/vehicle-equipment/&quot;&gt;keep in the car&lt;/a&gt;, and take along on hikes.&lt;/p&gt;
+&lt;
+    
+    </summary>
+    
+    
+      <category term="Gear" scheme="http://eric.jain.name/tags/gear/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vehicle Equipment</title>
     <link href="http://eric.jain.name/2017/03/05/vehicle-equipment/"/>
     <id>http://eric.jain.name/2017/03/05/vehicle-equipment/</id>
     <published>2017-03-05T08:00:00.000Z</published>
-    <updated>2017-03-05T21:04:52.363Z</updated>
+    <updated>2017-03-17T06:19:41.502Z</updated>
     
     <content type="html"><![CDATA[<p>This is all the gear I keep in the car. Other than a couple of short trips around town during the week, most of the driving is to and from trailheads, see e.g. <a href="/2015/01/01/outdoor-trips/">this map</a>.</p>
 <p><img src="images/gear.jpg" alt=""></p>
@@ -28,7 +73,7 @@
 <li><a href="http://autosock.us/">Tire Socks</a>. Never used, but they count as <a href="http://www.wsp.wa.gov/traveler/traction.htm">approved traction devices</a> here when cars are required to carry chains.</li>
 <li>Emergency Triangle</li>
 <li><a href="http://snowclaw.com/">Snow Shovel</a></li>
-<li>First Aid Kit (various bandaids and pads, <a href="http://www.quikclot.com/">QuikClot</a>, standard medication, sunscreen, Nivea, flashlight, mirror, lighter, duct tape, paracord, water purification tablets). This also goes along on hikes.</li>
+<li><a href="/2017/03/17/first-aid-kit/">First Aid Kit</a>. This also goes along on hikes.</li>
 <li><a href="http://www.techmatte.com/CBL-ATC5B">USB Cable, 5ft</a></li>
 <li><a href="https://www.monoprice.com/product?c_id=116&amp;cp_id=10826&amp;cs_id=1082603&amp;p_id=13810&amp;seq=1&amp;format=2">USB Car Charger</a></li>
 <li><a href="https://www.kenu.com/products/airframe">Phone Mount</a></li>
@@ -135,6 +180,38 @@
   </entry>
   
   <entry>
+    <title>Smoothies</title>
+    <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
+    <id>http://eric.jain.name/2017/01/06/smoothies/</id>
+    <published>2017-01-06T08:00:00.000Z</published>
+    <updated>2017-03-05T23:29:53.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (for now):</p>
+<p><img src="ingredients.jpg" alt=""></p>
+<ol>
+<li>1 cup yoghurt</li>
+<li>1 tsp spirulina</li>
+<li>1 tsp chia seeds</li>
+<li>2 tsp golden flaxseed meal</li>
+<li>1 cup frozen fruit (mango, pineapple, strawberry, caranberry, blueberry, banana)</li>
+<li>1 leaf collard green and lacinato kale</li>
+</ol>
+<p>I <a href="https://www.nutribulletpro.com/">blend this</a> for just under a minute, sprinkle some granola on top, and this is the result:</p>
+<p><img src="bowl.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (
+    
+    </summary>
+    
+    
+      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Protein Shakes</title>
     <link href="http://eric.jain.name/2017/01/06/protein-shakes/"/>
     <id>http://eric.jain.name/2017/01/06/protein-shakes/</id>
@@ -160,38 +237,6 @@
 &lt;p&gt;&lt;img src=&quot;ingredients.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;1 cup milk (or ran
-    
-    </summary>
-    
-    
-      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Smoothies</title>
-    <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
-    <id>http://eric.jain.name/2017/01/06/smoothies/</id>
-    <published>2017-01-06T08:00:00.000Z</published>
-    <updated>2017-03-05T23:29:53.898Z</updated>
-    
-    <content type="html"><![CDATA[<p>Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (for now):</p>
-<p><img src="ingredients.jpg" alt=""></p>
-<ol>
-<li>1 cup yoghurt</li>
-<li>1 tsp spirulina</li>
-<li>1 tsp chia seeds</li>
-<li>2 tsp golden flaxseed meal</li>
-<li>1 cup frozen fruit (mango, pineapple, strawberry, caranberry, blueberry, banana)</li>
-<li>1 leaf collard green and lacinato kale</li>
-</ol>
-<p>I <a href="https://www.nutribulletpro.com/">blend this</a> for just under a minute, sprinkle some granola on top, and this is the result:</p>
-<p><img src="bowl.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (
     
     </summary>
     
@@ -773,51 +818,6 @@
     
     
       <category term="Travel" scheme="http://eric.jain.name/tags/travel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Edward Tufte&#39;s Presenting Data and Information Course</title>
-    <link href="http://eric.jain.name/2008/07/18/edward-tufte-presenting-data-and-information-course/"/>
-    <id>http://eric.jain.name/2008/07/18/edward-tufte-presenting-data-and-information-course/</id>
-    <published>2008-07-18T07:00:00.000Z</published>
-    <updated>2017-02-28T08:18:02.927Z</updated>
-    
-    <content type="html"><![CDATA[<p>Here are some take-away notes from the course on <a href="http://www.edwardtufte.com/tufte/courses">presenting data and information</a> that Edward Tufte gave in Seattle on July 17.</p>
-<p><img src="tufte_books.gif" alt="Course Books"></p>
-<p>Don’t choose a visualization method in advance. The goal of a graphic is to invoke a <strong>content response</strong>, not a design response (i.e. wow, nice graph).</p>
-<p>Organization charts are not informative – unless the lines (relationships) are annotated.</p>
-<p>Every graphic should provide <strong>reasons to believe</strong>. Detail helps credibility and raises interest (as an extreme example consider aerial pictures). If you don’t show all the data you must be a “cherry picker”.</p>
-<p>Letting people look at data themselves stimulates their interest and gets them thinking (and has more impact). More data points means more “hooks” for people to (potentially) be interested in.</p>
-<p>When possible, bring <strong>something real</strong> to a presentation (for example a hospital bill when discussing medical expenses).</p>
-<p><strong>Annotate everything</strong> – even your text. Don’t use foot notes, create side notes.</p>
-<p>It rarely makes sense to order items in tables alphabetically.</p>
-<p>The Gil Sans font (a compact sans-serif font) works great for (time-)tables.</p>
-<p>Don’t go for the lowest common denominator. Don’t be “flabby &amp; generic”.</p>
-<p>Make presentations that make proper use of the human eye-brain system (which has a bandwidth of ~10Mbs).</p>
-<p>Tables outperform graphics up until ~500 data points.</p>
-<p>Respect both the content and the audience. Why is it that an average PowerPoint table contains only 12 numbers, but tables in the sports section of a magazine can burden their audience with an average of ~200 numbers?</p>
-<p>Distribute data in space (using multiple monitors, if must be) rather than not time (e.g. across several slides).</p>
-<p>People should have their names on their work (as pride often results in better work).</p>
-<p>Don’t separate information depending to its mode of production (e.g. in separate “multimedia” slide shows).</p>
-<p>Be aware that design often mimics the hierarchy in an organization.</p>
-<p>The original computer desktop at Xerox had icons for documents only (i.e. now trash icon etc).</p>
-<p>Create “infographics” that you can leave around (maybe people will give them another look during a following, boring presentation).</p>
-<p>“No matter how beautiful your interface is, it would be better if there was less of it” (though I don’t think he’d extend that all the way to command line interfaces).</p>
-<p>“Flat” interfaces beat “hierarchical” interfaces in terms of usability.</p>
-<p>Efforts to provide “personalized” interfaces are “pathetic” (shows that you don’t know how to present something, and try to offload the responsibility to the user).</p>
-<p>Going beyond <a href="http://en.wikipedia.org/wiki/Sparkline">sparklines</a>: <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0002vW&amp;topic_id=1">Wavefields</a> (?).</p>
-<p>Instead of doing “presentations”, dump the data on the audience, let them read through it, and then have a “guided discussion” (i.e. answer questions).</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Here are some take-away notes from the course on &lt;a href=&quot;http://www.edwardtufte.com/tufte/courses&quot;&gt;presenting data and information&lt;/a&gt; t
-    
-    </summary>
-    
-    
-      <category term="Programming" scheme="http://eric.jain.name/tags/programming/"/>
     
   </entry>
   
