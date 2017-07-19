@@ -65,9 +65,9 @@
     <link href="http://eric.jain.name/2017/03/05/vehicle-equipment/"/>
     <id>http://eric.jain.name/2017/03/05/vehicle-equipment/</id>
     <published>2017-03-05T08:00:00.000Z</published>
-    <updated>2017-03-17T06:19:41.502Z</updated>
+    <updated>2017-07-19T21:19:21.842Z</updated>
     
-    <content type="html"><![CDATA[<p>This is all the gear I keep in the car. Other than a couple of short trips around town during the week, most of the driving is to and from trailheads, see e.g. <a href="/2015/01/01/outdoor-trips/">this map</a>.</p>
+    <content type="html"><![CDATA[<p>This is all the gear I keep in the car. Other than a couple of short trips around town during the week, most of the driving is to and from trailheads.</p>
 <p><img src="images/gear.jpg" alt=""></p>
 <ol>
 <li><a href="http://autosock.us/">Tire Socks</a>. Never used, but they count as <a href="http://www.wsp.wa.gov/traveler/traction.htm">approved traction devices</a> here when cars are required to carry chains.</li>
@@ -93,8 +93,10 @@
 <li><a href="http://www.suaoki.com/rcp-c43l.html">Air Compressor</a></li>
 <li><a href="https://www.anker.com/products/A1501011">Jump Starter</a></li>
 <li><a href="https://www.fixaflat.com/us/product-details.php?id=14">Fix-a-Flat</a></li>
+<li><a href="http://www.orionsignals.com/product-groups/handheld-flares/product/20.html">Road Flares</a> (not shown)</li>
+<li><a href="https://www.amazon.com/dp/B00YI3IGA6/ref=cm_sw_su_dp">ShadeSox</a> (not shown). Used as a bug net when sleeping in the car with the rear windows open.</li>
 <li><a href="https://www.containerstore.com/s/grey-utility-trays/d?productId=10035847">Utility Trays</a></li>
-<li><a href="https://www.automatic.com/">Automatic</a> OBD Adapter (not shown). Records tracklogs, gas mileage, cost per trip, and other useful data.</li>
+<li><a href="https://www.automatic.com/">Automatic</a> OBD Adapter (not shown). Records <a href="/2015/01/01/outdoor-trips/">tracklogs</a>, gas mileage, cost per trip, and other useful data.</li>
 </ol>
 <div class="gallery">
 
@@ -123,7 +125,7 @@
     <div class="thumbnail">
       <a href="images/trunk.jpg"><img src="thumbnails/trunk.jpg"/></a>
         <div class="caption">
-          ...and 17-23 fit inside the trays.
+          ...and 17-25 fit inside the trays.
         </div>
     </div>
   </div>
@@ -180,6 +182,38 @@
   </entry>
   
   <entry>
+    <title>Smoothies</title>
+    <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
+    <id>http://eric.jain.name/2017/01/06/smoothies/</id>
+    <published>2017-01-06T08:00:00.000Z</published>
+    <updated>2017-03-05T23:29:53.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (for now):</p>
+<p><img src="ingredients.jpg" alt=""></p>
+<ol>
+<li>1 cup yoghurt</li>
+<li>1 tsp spirulina</li>
+<li>1 tsp chia seeds</li>
+<li>2 tsp golden flaxseed meal</li>
+<li>1 cup frozen fruit (mango, pineapple, strawberry, caranberry, blueberry, banana)</li>
+<li>1 leaf collard green and lacinato kale</li>
+</ol>
+<p>I <a href="https://www.nutribulletpro.com/">blend this</a> for just under a minute, sprinkle some granola on top, and this is the result:</p>
+<p><img src="bowl.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (
+    
+    </summary>
+    
+    
+      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Protein Shakes</title>
     <link href="http://eric.jain.name/2017/01/06/protein-shakes/"/>
     <id>http://eric.jain.name/2017/01/06/protein-shakes/</id>
@@ -205,38 +239,6 @@
 &lt;p&gt;&lt;img src=&quot;ingredients.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;1 cup milk (or ran
-    
-    </summary>
-    
-    
-      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Smoothies</title>
-    <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
-    <id>http://eric.jain.name/2017/01/06/smoothies/</id>
-    <published>2017-01-06T08:00:00.000Z</published>
-    <updated>2017-03-05T23:29:53.898Z</updated>
-    
-    <content type="html"><![CDATA[<p>Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (for now):</p>
-<p><img src="ingredients.jpg" alt=""></p>
-<ol>
-<li>1 cup yoghurt</li>
-<li>1 tsp spirulina</li>
-<li>1 tsp chia seeds</li>
-<li>2 tsp golden flaxseed meal</li>
-<li>1 cup frozen fruit (mango, pineapple, strawberry, caranberry, blueberry, banana)</li>
-<li>1 leaf collard green and lacinato kale</li>
-</ol>
-<p>I <a href="https://www.nutribulletpro.com/">blend this</a> for just under a minute, sprinkle some granola on top, and this is the result:</p>
-<p><img src="bowl.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (
     
     </summary>
     
