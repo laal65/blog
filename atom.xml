@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eric.jain.name/"/>
-  <updated>2017-03-17T06:22:58.132Z</updated>
+  <updated>2017-09-01T01:09:01.493Z</updated>
   <id>http://eric.jain.name/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cascades Pika Watch</title>
+    <link href="http://eric.jain.name/2017/08/31/cascades-pika-watch/"/>
+    <id>http://eric.jain.name/2017/08/31/cascades-pika-watch/</id>
+    <published>2017-08-31T07:00:00.000Z</published>
+    <updated>2017-09-01T01:09:01.493Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://lh3.googleusercontent.com/4XyTyp9VJA4WAJbNn493W1XV3SFMqzUVvEymWOWnaM9lxmtJOJ7-Jr6xDcKNMeUpyzV-xM7TRBUYsv0g8yfryLIzEOGzQAiB711meqDkH5ZXSpaxjn60W63SxG7R9_219YDNKlzTDA=w1022-h767-no" alt="Pika near Cascade Pass"></p>
+<p>This summer we participated in a “citizen science” project that has us report any signs of <a href="https://en.wikipedia.org/wiki/American_pika">Pikas</a> we came across while hiking.</p>
+<p>To get started, we attended a training session at <a href="https://www.pdza.org/">Point Defiance Zoo</a> earlier this year, to ensure we wouldn’t confuse pikas with squirrels or other small mammals, and to learn how to identify pikas from their calls or scat.</p>
+<p>The observations were reported through <a href="https://play.google.com/store/apps/details?id=com.nrel.citsci">an Android app</a>. Each report includes not just the place and time of the observation, but also the number of animals, whether we saw or only heard them etc. The app was a bit tedious (and buggy), wish they had chosen <a href="https://play.google.com/store/apps/details?id=org.inaturalist.android">iNaturalist</a> instead.</p>
+<p>The observation data is publicly available at <a href="http://www.citsci.org/cwis438/Browse/Project/Project_Info.php?ProjectID=339">CitSci.org</a>. So far we contributed 5 observations, hoping to get a few more before winter!</p>
+<p>There’s also a fun <a href="https://www.facebook.com/groups/CascadesPikaWatch/">Facebook group</a> where people share pictures.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/4XyTyp9VJA4WAJbNn493W1XV3SFMqzUVvEymWOWnaM9lxmtJOJ7-Jr6xDcKNMeUpyzV-xM7TRBUYsv0g8yfryLIzEOGzQ
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>First Aid Kit</title>
@@ -182,38 +206,6 @@
   </entry>
   
   <entry>
-    <title>Smoothies</title>
-    <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
-    <id>http://eric.jain.name/2017/01/06/smoothies/</id>
-    <published>2017-01-06T08:00:00.000Z</published>
-    <updated>2017-03-05T23:29:53.898Z</updated>
-    
-    <content type="html"><![CDATA[<p>Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (for now):</p>
-<p><img src="ingredients.jpg" alt=""></p>
-<ol>
-<li>1 cup yoghurt</li>
-<li>1 tsp spirulina</li>
-<li>1 tsp chia seeds</li>
-<li>2 tsp golden flaxseed meal</li>
-<li>1 cup frozen fruit (mango, pineapple, strawberry, caranberry, blueberry, banana)</li>
-<li>1 leaf collard green and lacinato kale</li>
-</ol>
-<p>I <a href="https://www.nutribulletpro.com/">blend this</a> for just under a minute, sprinkle some granola on top, and this is the result:</p>
-<p><img src="bowl.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (
-    
-    </summary>
-    
-    
-      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Protein Shakes</title>
     <link href="http://eric.jain.name/2017/01/06/protein-shakes/"/>
     <id>http://eric.jain.name/2017/01/06/protein-shakes/</id>
@@ -239,6 +231,38 @@
 &lt;p&gt;&lt;img src=&quot;ingredients.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;1 cup milk (or ran
+    
+    </summary>
+    
+    
+      <category term="Recipe" scheme="http://eric.jain.name/tags/recipe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Smoothies</title>
+    <link href="http://eric.jain.name/2017/01/06/smoothies/"/>
+    <id>http://eric.jain.name/2017/01/06/smoothies/</id>
+    <published>2017-01-06T08:00:00.000Z</published>
+    <updated>2017-03-05T23:29:53.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (for now):</p>
+<p><img src="ingredients.jpg" alt=""></p>
+<ol>
+<li>1 cup yoghurt</li>
+<li>1 tsp spirulina</li>
+<li>1 tsp chia seeds</li>
+<li>2 tsp golden flaxseed meal</li>
+<li>1 cup frozen fruit (mango, pineapple, strawberry, caranberry, blueberry, banana)</li>
+<li>1 leaf collard green and lacinato kale</li>
+</ol>
+<p>I <a href="https://www.nutribulletpro.com/">blend this</a> for just under a minute, sprinkle some granola on top, and this is the result:</p>
+<p><img src="bowl.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Upgraded my breakfast from cereal with yoghurt to “smoothie bowls” last year. After a lot of experimenting, here’s what I’ve settled on (
     
     </summary>
     
@@ -787,39 +811,6 @@
     
     
       <category term="Programming" scheme="http://eric.jain.name/tags/programming/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Seattle by Land, Water and Air</title>
-    <link href="http://eric.jain.name/2008/08/05/seattle-land-water-air/"/>
-    <id>http://eric.jain.name/2008/08/05/seattle-land-water-air/</id>
-    <published>2008-08-05T07:00:00.000Z</published>
-    <updated>2017-02-28T07:39:22.224Z</updated>
-    
-    <content type="html"><![CDATA[<p>Having my sister visit me here in Seattle provided a good excuse to do some local sightseeing–first by land and water with the <a href="http://www.ridetheducksofseattle.com/">Ducks of Seattle</a>, then by air with <a href="http://www.seattleseaplanes.com/">Seattle Sea Planes</a>.</p>
-<p>Here are the exact routes taken on these two tours:</p>
-<h3 id="Ride-the-Ducks-of-Seattle"><a href="#Ride-the-Ducks-of-Seattle" class="headerlink" title="Ride the Ducks of Seattle"></a>Ride the Ducks of Seattle</h3><div id="map-duck"></div>
-
-<p><a href="duck.gpx">Tracklog</a></p>
-<h3 id="Seattle-Sea-Planes"><a href="#Seattle-Sea-Planes" class="headerlink" title="Seattle Sea Planes"></a>Seattle Sea Planes</h3><div id="map-plane"></div>
-
-<p><a href="plane.gpx">Tracklog</a> | <a href="https://goo.gl/photos/XLQnqbExgLZLbkdK8">Photos</a></p>
-<p>The routes were recorded with a Garmin eTrex H, and the maps were created with <a href="http://www.robogeo.com/home/">Robogeo</a>.</p>
-<p><style type="text/css">#map-plane, #map-duck { width: 400px; height: 300px; }</style></p>
-<script src="//maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA1ie5eJQW9e6q2ZQ_BA68hRTRNlqWHuvjCh6l9lpJg_hxaZzwYxRdO9Z9zsnPQ1egjGR83hDs3rnrLg"></script></p>
-<script type="text/javascript" src="duck.js"></script>
-<script type="text/javascript" src="plane.js"></script>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Having my sister visit me here in Seattle provided a good excuse to do some local sightseeing–first by land and water with the &lt;a href=&quot;h
-    
-    </summary>
-    
-    
-      <category term="Travel" scheme="http://eric.jain.name/tags/travel/"/>
     
   </entry>
   
