@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://eric.jain.name/"/>
-  <updated>2017-09-01T01:09:01.493Z</updated>
+  <updated>2017-10-29T21:33:20.981Z</updated>
   <id>http://eric.jain.name/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Programmer Excuses</title>
+    <link href="http://eric.jain.name/2017/10/29/programmer-excuses/"/>
+    <id>http://eric.jain.name/2017/10/29/programmer-excuses/</id>
+    <published>2017-10-29T07:00:00.000Z</published>
+    <updated>2017-10-29T21:33:20.981Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="comic.png" alt="compiling, testing, training"></p>
+<p>(based on <a href="https://xkcd.com/303/">xkcd.com/303/</a>)</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;comic.png&quot; alt=&quot;compiling, testing, training&quot;&gt;&lt;/p&gt;
+&lt;p&gt;(based on &lt;a href=&quot;https://xkcd.com/303/&quot;&gt;xkcd.com/303/&lt;/a&gt;)&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="Humor" scheme="http://eric.jain.name/tags/humor/"/>
+    
+      <category term="Programming" scheme="http://eric.jain.name/tags/programming/"/>
+    
+  </entry>
   
   <entry>
     <title>Cascades Pika Watch</title>
@@ -544,12 +570,12 @@
     <link href="http://eric.jain.name/2010/12/12/one-years-tracklogs/"/>
     <id>http://eric.jain.name/2010/12/12/one-years-tracklogs/</id>
     <published>2010-12-12T08:00:00.000Z</published>
-    <updated>2017-02-27T08:39:24.938Z</updated>
+    <updated>2017-09-24T02:11:00.480Z</updated>
     
     <content type="html"><![CDATA[<p>Here’s a map that shows every tracklog I recorded this year, driving and hiking around Washington State (mostly).</p>
 <p><a href="https://www.google.com/fusiontables/DataSource?snapid=115713"><img src="//farm6.static.flickr.com/5121/5256169282_e8d8d29480_z.jpg" alt="Eric&#39;s Tracklogs 2010"></a></p>
 <p>The red tracks were recorded while driving (or, in one instance, while on a ferry). The yellow tracks were recorded while hiking (or in small boats). I only started recording driving tracklogs end of April, hence the few disconnected hiking tracks on the map.</p>
-<p>The map was created with <a href="http://tables.googlelabs.com/">Google Fusion Tables</a>, which somehow is smart enough to be able to show a large number of tracklogs all at once. I wrote a small <a href="build.g">script</a> (in Groovy) to convert a directory containing GPX tracklog files into a single KML file that can be imported into Google Fusion Tables.</p>
+<p>The map was created with <a href="https://www.google.com/fusiontables">Google Fusion Tables</a>, which somehow is smart enough to be able to show a large number of tracklogs all at once. I wrote a small <a href="build.g">script</a> (in Groovy) to convert a directory containing GPX tracklog files into a single KML file that can be imported into Google Fusion Tables.</p>
 <p>Click on the image above to open an interactive, zoomable map.</p>
 ]]></content>
     
@@ -783,34 +809,6 @@
     
     
       <category term="Quantified Self" scheme="http://eric.jain.name/tags/quantified-self/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GTAC 2008</title>
-    <link href="http://eric.jain.name/2008/10/23/gtac-2008/"/>
-    <id>http://eric.jain.name/2008/10/23/gtac-2008/</id>
-    <published>2008-10-23T07:00:00.000Z</published>
-    <updated>2017-02-28T08:18:02.947Z</updated>
-    
-    <content type="html"><![CDATA[<p>Here are my take-away notes from the first day of the <a href="http://googletesting.blogspot.com/2008/04/gtac-2008-in-seattle.html">Google Testing and Automation Conference</a>.</p>
-<p><strong>James A. Whitaker (Microsoft) on <em>The Future of Testing</em>:</strong> Crowdsourcing testing (see e.g. <a href="http://www.utest.com/">uTest</a>) is the simplest way to get an application tested on a large number of different platforms. Such services should also allow testers to focus more on designing rather than executing (manual) tests. Virtualisation could address the issue of hard to reproduce bugs by capturing the state of the machine as part of bug reports. Game testers use maps to highlight areas in game worlds that have been thoroughly tested. Similar visualizations could help people testing normal software what areas of the application need more testing.</p>
-<p><strong>Elfriede Dustin and Marcus Borch (IDT) on <em>Advances in Automated Software Testing Technologies</em></strong>: There are <a href="http://generatedata.com/">tools that can help generate random test data</a>. The speakers spoke in great length about generating test code from customer supplied spreadsheets. Not sure if anyone in the audience understood what the advantage of this approach is – I didn’t.</p>
-<p><strong>Andres Almiray (Oracle) on <em>Boosting Your Testing Productivity with Groovy</em>:</strong> This was more about the advantages of Groovy in general than testing, though towards the end of the talk the speaker did show how to create mock objects (using MockFor/StubFor) and how to use DbUnit in Groovy (more or less the same way you’d use it in Java). Oh boy this guy really did drink the Kool-Aid…</p>
-<p><strong>Markus Clermont and John Thomas on <em>Taming the Beast: How to Test an AJAX Application</em>:</strong> The speakers did their best to keep he audience awake in this after-lunch talk. This got a bit tiring after the tenth “raise your hand if…”, but they had an excellent point: The amount of large, end-to-end tests (written e.g. with Selenium) should be minimized in favor of “medium”-sized tests that test interactions between specific components (one level deep).</p>
-<p><strong>Matt Wood (Sanger Institute) on <em>The New Genomics: Software Development at Petabyte Scale</em>:</strong> This was perhaps the most interesting talk, though it didn’t really go into testing at all!</p>
-<p><strong>Marc-Elian Bégin (Six2) on <em>Using Cloud Computing to Automate Full-Scale System Tests</em>:</strong> The case was made that Amazon EC2 is of great use for (system-level) testing. The speaker predicts that paravirtualization (e.g. with Xen) will increasingly be replaced with full virtualization (e.g. KVM), even though latter requires special hardware support (built into most newer processors?).</p>
-<p><strong>Vishal Chowdhary (Microsoft) on <em>Practicing Testablity in the Real World</em>:</strong> Good explanation of the basics of writing testable code, though perhaps a bit too basic for the audience that was present.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Here are my take-away notes from the first day of the &lt;a href=&quot;http://googletesting.blogspot.com/2008/04/gtac-2008-in-seattle.html&quot;&gt;Googl
-    
-    </summary>
-    
-    
-      <category term="Programming" scheme="http://eric.jain.name/tags/programming/"/>
     
   </entry>
   
